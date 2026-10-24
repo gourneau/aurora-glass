@@ -10,12 +10,14 @@
 <meta property="og:title" content="Aurora Glass">
 <meta property="og:description" content="A real fluid simulation, running in your menu bar.">
 <meta property="og:type" content="website">
-<!-- PLACEHOLDER: og:url and og:image need the real domain and a real share image once the site has a home. -->
+<meta property="og:url" content="https://gourneau.github.io/aurora-glass/">
+<link rel="canonical" href="https://gourneau.github.io/aurora-glass/">
+<!-- PLACEHOLDER: og:image still needs a share image (1200x630). -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=6">
+<link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
 
@@ -43,7 +45,7 @@
       <a href="#recording">See it</a>
       <a href="#scenes">Scenes</a>
     </nav>
-    <a class="btn btn-small" href="mailto:josh@gourneau.com?subject=Aurora%20Glass%20%E2%80%94%20let%20me%20know%20when%20it%20ships&body=Drop%20me%20a%20line%20when%20the%20first%20signed%20build%20is%20ready.">Get notified</a>
+    <a class="btn btn-small" href="https://github.com/gourneau/aurora-glass/releases/latest/download/AuroraGlass.dmg">Download</a>
   </div>
 </header>
 
@@ -84,10 +86,10 @@
         Not a looping video or a crossfading gradient — an incompressible fluid solve,
         recomputed every single frame on the GPU.</p>
       <div class="cta">
-        <a class="btn" href="mailto:josh@gourneau.com?subject=Aurora%20Glass%20%E2%80%94%20let%20me%20know%20when%20it%20ships&body=Drop%20me%20a%20line%20when%20the%20first%20signed%20build%20is%20ready.">Get notified when it ships</a>
+        <a class="btn" href="https://github.com/gourneau/aurora-glass/releases/latest/download/AuroraGlass.dmg">Download for macOS</a>
         <a class="link-quiet" href="#how">See how it works</a>
       </div>
-      <p class="fineprint">Not released yet. macOS 26 Tahoe or later.</p>
+      <p class="fineprint">Free, signed and notarized. macOS 26 Tahoe or later.</p>
       <p class="hint">This is the default: it lights the menu bar and spills a little onto the desktop. Move your pointer across it.</p>
     </div>
   </section>
@@ -275,7 +277,7 @@
             <li>HDR glow on XDR displays</li>
             <li>Colours sampled from your wallpaper</li>
           </ul>
-          <a class="btn btn-wide" href="mailto:josh@gourneau.com?subject=Aurora%20Glass%20%E2%80%94%20let%20me%20know%20when%20it%20ships&body=Drop%20me%20a%20line%20when%20the%20first%20signed%20build%20is%20ready.">Get notified when it ships</a>
+          <a class="btn btn-wide" href="https://github.com/gourneau/aurora-glass/releases/latest/download/AuroraGlass.dmg">Download for macOS</a>
         </div>
       </div>
       <p class="fineprint fineprint-center">A paid tier may come later, once there is something
@@ -404,9 +406,9 @@ palette <span class="c-h">#0dff8c</span> <span class="c-h">#26f2cc</span> <span 
   <section class="band band-close">
     <div class="shell">
       <h2 class="h2 h2-center">Put it at the top of your screen</h2>
-      <a class="btn btn-big" href="mailto:josh@gourneau.com?subject=Aurora%20Glass%20%E2%80%94%20let%20me%20know%20when%20it%20ships&body=Drop%20me%20a%20line%20when%20the%20first%20signed%20build%20is%20ready.">Get notified when it ships</a>
-      <p class="fineprint fineprint-center">Not released yet. One email when the first signed
-        build is ready &mdash; no list, no account. macOS 26 Tahoe or later.</p>
+      <a class="btn btn-big" href="https://github.com/gourneau/aurora-glass/releases/latest/download/AuroraGlass.dmg">Download for macOS</a>
+      <p class="fineprint fineprint-center">Free. Signed and notarized by Apple, so it opens without a warning.
+        macOS 26 Tahoe or later, Apple silicon.</p>
     </div>
   </section>
 
@@ -416,15 +418,15 @@ palette <span class="c-h">#0dff8c</span> <span class="c-h">#26f2cc</span> <span 
   <div class="shell foot-inner">
     <p class="foot-mark">Aurora Glass</p>
     <nav class="foot-links" aria-label="Footer">
-      <!-- Source, release notes and a privacy page will be linked here once the
-           repo is public and the site has a home. Omitted rather than pointed
-           at dead anchors. -->
+      <!-- The application source is in a private repository, so there is no
+           Source link. Releases are public. -->
+      <a href="https://github.com/gourneau/aurora-glass/releases">Releases</a>
       <a href="mailto:josh@gourneau.com">Support</a>
       <a href="https://sidepulse.io">SidePulse</a>
     </nav>
   </div>
 </footer>
 
-<script src="aurora.js?v=6"></script>
+<script src="aurora.js?v=7"></script>
 </body>
 </html>
