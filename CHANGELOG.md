@@ -5,6 +5,18 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.43 — 2026-10-27
+
+- **Wash away burns the words into light.** The letters lean and bend with
+  the flow, catch fire along a front that eats through them, and break into
+  glowing sparks that the fluid scatters — while a stream of the look's color
+  pours out of them. It takes a little under two seconds.
+- **Choose the font for text in the bar.** The default is now the menu bar's
+  own font, exactly as the system draws it, for both text in the bar and the
+  visor (which was monospaced). System → Messages offers Rounded, Serif,
+  Monospaced, or any font on your Mac, and `aurora say "…" --font "Avenir
+  Next"` picks one for a single message.
+
 ## 0.1.42 — 2026-10-27
 
 - **Starlight**, a new look: nebula colors — deep indigo, violet and pink,
