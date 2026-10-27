@@ -1,4 +1,4 @@
-# Source lives here; ./issue-templates.sh pushes it to the public repo.
+# Source lives here; ./public-files.sh pushes it to the public repo.
 name: A question, or something else
 description: Anything that is not a bug report or a feature request.
 body:
