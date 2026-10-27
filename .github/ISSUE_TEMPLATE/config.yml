@@ -1,12 +1,14 @@
 # Blank issues are off so that every bug report arrives with a version and a
-# Mac in it. The two links below mean nobody is pushed into the wrong form:
-# one answers the common question before it becomes an issue, the other is for
-# people without a GitHub account.
+# Mac in it. The link below is so nobody is pushed into the wrong form: it
+# answers the common report before it becomes an issue.
+#
+# Only http(s) links are allowed here — a mailto: is rejected and takes the
+# whole chooser down with it, which is a silent break, since the chooser is
+# behind a sign-in and cannot be viewed anonymously to check. That costs
+# nothing: anyone reading this chooser already has a GitHub account, and the
+# email address for everyone else is on the website.
 blank_issues_enabled: false
 contact_links:
   - name: It is not drawing anything
     url: https://aurora.radiantmachines.com/#faq
     about: Five things it usually is, and the command that says which one. Quicker than waiting for me.
-  - name: Email instead
-    url: mailto:josh@gourneau.com?subject=Aurora%20Glass
-    about: No GitHub account needed. You cannot follow what happens to it, which is the only cost.
