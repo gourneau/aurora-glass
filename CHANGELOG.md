@@ -5,6 +5,18 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.45 — 2026-10-27
+
+- **A look is the same look whatever you chose before it.** The gaps between
+  curtains, and the Travel setting, were not part of a look, so a look that
+  did not set them kept the previous one's — Northern Lights chosen after
+  Starlight was not quite Northern Lights — and saving a look did not keep
+  them either. Both are part of a look now.
+- **Scripts can drive the sky.** A custom script (Drive → Custom script) can
+  now `bind` `sparkle`, `motes`, `twinkle`, `stars`, `meteors` and
+  `curtains`, so stars can brighten with the music or motes breathe on their
+  own.
+
 ## 0.1.44 — 2026-10-27
 
 - **A new look moves the moment you choose it.** Choosing a look restarts the
