@@ -21,6 +21,14 @@ an archive:
 
 [all releases](https://github.com/gourneau/aurora-glass/releases)
 
+## Looks as files
+
+Every look is a few lines of text in a `.aurora` file: its palette, its
+values, the options it offers as sliders, and values that move on their own.
+Edit one from **Look → This look → Edit as text**, copy it, or save it and
+send it to someone. The whole language is in [docs/looks.md](docs/looks.md)
+and at [aurora.radiantmachines.com/docs.html](https://aurora.radiantmachines.com/docs.html).
+
 ## If it draws nothing
 
 Turn off **System Settings → Control Center → Menu Bar → "Show menu bar
