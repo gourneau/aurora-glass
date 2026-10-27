@@ -1,0 +1,77 @@
+# Issues are filed on the public repo, so this file has to live on that repo's
+# default branch to have any effect. It is source here; ./issue-templates.sh
+# pushes it across.
+name: Something is broken
+description: It is not drawing, it misbehaves, or it crashed.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Nothing visual can be worked out without knowing the version, the Mac and
+        the macOS build, so the three boxes below are required. One line in
+        Terminal answers all three at once:
+
+        ```
+        printf 'Aurora %s · %s · %s · macOS %s\n' "$(defaults read /Applications/AuroraGlass.app/Contents/Info.plist CFBundleShortVersionString)" "$(sysctl -n hw.model)" "$(sysctl -n machdep.cpu.brand_string)" "$(sw_vers -productVersion)"
+        ```
+
+  - type: input
+    id: version
+    attributes:
+      label: Aurora Glass version
+      description: The footer of the settings panel, and the top of the right-click menu.
+      placeholder: "0.1.32"
+    validations:
+      required: true
+
+  - type: input
+    id: mac
+    attributes:
+      label: Which Mac
+      description: The model identifier and the chip, or just the chip if that is all you know.
+      placeholder: "Mac16,1 · Apple M4 — or: M1 Pro 14-inch"
+    validations:
+      required: true
+
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "26.6.2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: What you did, what you saw, and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Debug output
+      description: |
+        Decisive for anything that is not drawing, and worth the minute it takes. Run
+
+            pkill -x AuroraGlass
+            AURORA_DEBUG=1 /Applications/AuroraGlass.app/Contents/MacOS/AuroraGlass
+
+        and paste the first dozen lines. Control-C stops it; reopen the app normally
+        afterwards. It reports placement, frame timing and whether it has paused
+        itself, and nothing about you or your files.
+      render: text
+    validations:
+      required: false
+
+  - type: input
+    id: displays
+    attributes:
+      label: Displays
+      description: Only matters if it looks wrong rather than absent. Size and refresh rate, and which one it is wrong on.
+      placeholder: "built-in 3024px 120Hz + Dell 6016px 60Hz, wrong on the Dell"
+    validations:
+      required: false
