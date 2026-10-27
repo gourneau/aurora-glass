@@ -5,6 +5,21 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.41 — 2026-10-27
+
+- **Make your own palettes.** In Look → Colour, *New from this* copies the
+  palette on show into one you can edit, with the bar itself as the preview.
+  The first colour is labelled *Bar*, because it very nearly is: the aurora is
+  highlights on top of it, so it is the colour to change first. Each colour
+  has hue, saturation and brightness sliders and a hex field. Palettes can be
+  renamed and deleted, and a saved look that used one follows it through a
+  rename.
+- **Share a palette as one line of text.** *Copy as text* gives
+  `aurora palette "#5a0c12" "#c2361f" "#f08a24" "#ffd27a"  # Ember` — a
+  working command in any shell, with the name riding along as a comment.
+  *Paste* turns a line like that, or any two to four `#rrggbb` colours, back
+  into a saved palette.
+
 ## 0.1.40 — 2026-10-27
 
 - **The wispy edge moves with the aurora.** It travels along the bar at the
