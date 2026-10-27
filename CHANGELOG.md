@@ -5,6 +5,21 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.46 — 2026-10-27
+
+- **No more flicker.** On XDR displays the bar would now and then dip darker
+  and whiter for a frame or two. Recorded and counted: 11 flickers in 20
+  seconds with HDR glow on, none with it off. No look ever puts light beyond
+  ordinary white, so HDR glow added nothing to see. It is off by default now
+  and switched off once for everyone who had it; the toggle is still in
+  Look if you want it back.
+- **The settings panel switches tabs at once.** Layout took 0.6 s to open and
+  System 0.4 s. A slider with steps draws a tick for every one (241 for the
+  bleed), and the font menu built an entry for every installed font each time.
+  Every tab now opens in under a tenth of a second.
+- **Pumpkin Spice**, a new look: pumpkin, caramel and cinnamon under whipped
+  cream, slow and warm, with a few glints.
+
 ## 0.1.45 — 2026-10-27
 
 - **A look is the same look whatever you chose before it.** The gaps between
