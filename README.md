@@ -1,32 +1,38 @@
-# Aurora Glass — website and downloads
+# Aurora Glass
 
-The landing page for [Aurora Glass](https://gourneau.github.io/aurora-glass/),
-a macOS menu bar app that paints a live GPU fluid simulation across the menu
-bar, and the place its signed builds are published.
+A macOS menu bar app that paints a live GPU fluid simulation across your menu
+bar.
 
-The application source lives in a private repository. This repository holds
-only the site and the release downloads.
+### [aurora.radiantmachines.com](https://aurora.radiantmachines.com)
 
-## Downloads
+That is the site, the download and the help — it is self-hosted on its own
+domain, not on GitHub Pages. This repository holds the published builds and
+the issue tracker; the application source is private.
 
-[**Download the latest release**](https://github.com/gourneau/aurora-glass/releases/latest/download/AuroraGlass.dmg)
+## Download
 
-Each release has a notarized `AuroraGlass.dmg` attached, signed with a
-Developer ID certificate and stapled, so it opens without a Gatekeeper
-warning and works offline on first launch.
+**[Download Aurora Glass](https://aurora.radiantmachines.com)** — requires
+macOS 26 (Tahoe) or later, Apple silicon.
 
-**Requires macOS 26 (Tahoe) or later, Apple silicon.**
+Every build is signed with a Developer ID certificate, notarized by Apple and
+stapled, so it opens without a Gatekeeper warning and works offline on first
+launch. Each release here has the same notarized `AuroraGlass.dmg` attached as
+an archive:
 
-After installing, turn off **System Settings → Menu Bar → "Show menu bar
-background"**. That makes the bar transparent so the aurora shows through,
-with your real menu bar text drawn crisply on top. Without it the bar stays
-opaque and you will see nothing.
+[all releases](https://github.com/gourneau/aurora-glass/releases)
 
-## The site
+## If it draws nothing
 
-Static HTML, CSS and a little JavaScript. No build step. Served by GitHub
-Pages from the repository root.
+Turn off **System Settings → Control Center → Menu Bar → "Show menu bar
+background"**. The aurora is painted behind everything and shows through a
+transparent menu bar; with that setting on, the bar paints straight over it.
 
-```bash
-python3 -m http.server 8777
-```
+The [Help section](https://aurora.radiantmachines.com/#faq) covers the rest,
+including the one command that says which of them it is.
+
+## Problems and ideas
+
+[Open an issue](https://github.com/gourneau/aurora-glass/issues/new/choose).
+The bug form asks for the version, the Mac and the macOS build, because
+nothing visual can be worked out without them, and it gives you the command
+that prints all three.
