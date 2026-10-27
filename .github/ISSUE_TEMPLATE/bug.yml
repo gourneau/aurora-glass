@@ -1,5 +1,5 @@
 # Issues are filed on the public repo, so this file has to live on that repo's
-# default branch to have any effect. It is source here; ./issue-templates.sh
+# default branch to have any effect. It is source here; ./public-files.sh
 # pushes it across.
 name: Something is broken
 description: It is not drawing, it misbehaves, or it crashed.
