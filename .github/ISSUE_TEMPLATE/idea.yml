@@ -1,4 +1,4 @@
-# Source lives here; ./issue-templates.sh pushes it to the public repo.
+# Source lives here; ./public-files.sh pushes it to the public repo.
 name: An idea
 description: A look, a setting, or something it ought to do.
 labels: ["idea"]
