@@ -1,0 +1,19 @@
+# Source lives here; ./issue-templates.sh pushes it to the public repo.
+name: A question, or something else
+description: Anything that is not a bug report or a feature request.
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is on your mind
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Aurora Glass version
+      description: Only if it is about the app rather than about the project.
+      placeholder: "0.1.32"
+    validations:
+      required: false
