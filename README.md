@@ -32,7 +32,18 @@ including the one command that says which of them it is.
 
 ## Problems and ideas
 
-[Open an issue](https://github.com/gourneau/aurora-glass/issues/new/choose).
+**The quickest route needs no account and no Terminal.** Open the panel from
+the menu bar icon, go to the **System** tab, and find the self-check — the
+first card when nothing is drawing, the last one otherwise: it says whether the aurora is being drawn and, if not, what
+stopped it. Press **Send this to the developer** and it comes straight to me,
+carrying the version, the Mac and what the renderer is doing.
+
+It is sent only when you press that button — never on its own — and what
+leaves is exactly the text shown above it: no account, no file names, nothing
+from your screen. If the app cannot reach the network, press **Copy** and
+paste it at <https://aurora.radiantmachines.com/report.html>.
+
+Otherwise, [open an issue](https://github.com/gourneau/aurora-glass/issues/new/choose).
 The bug form asks for the version, the Mac and the macOS build, because
 nothing visual can be worked out without them, and it gives you the command
 that prints all three.
