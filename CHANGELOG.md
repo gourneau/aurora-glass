@@ -5,6 +5,21 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.40 — 2026-10-27
+
+- **The wispy edge moves with the aurora.** It travels along the bar at the
+  pace the curtains drift, keeps reshaping, and hangs lower under a bright
+  curtain than under the dark sky beside it. Before, it barely moved at all:
+  measured, its tips now move about eleven times as much, and the pattern
+  travels where it used to stand still. Tails move with it and keep the
+  shape you set them to.
+- **`aurora say "text"`** puts a line of text in the menu bar from any shell,
+  script or agent, and takes it down by itself. It scrolls through by
+  default; `--fade` holds it and fades, `--wash` lets the fluid drag the
+  letters away and break them up into the aurora, and `--visor` drops a
+  console down from under the notch that types the line out. Style and
+  placement are in System → Messages, with a button to try it.
+
 ## 0.1.39 — 2026-10-27
 
 - **Tails.** The aurora's light can now hang down into the desktop below the
