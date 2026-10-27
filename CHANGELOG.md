@@ -5,6 +5,15 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.44 — 2026-10-27
+
+- **A new look moves the moment you choose it.** Choosing a look restarts the
+  fluid, and it used to start empty and still: measured, it moved at a tenth
+  of its usual rate for the first few seconds, so the colors changed at once
+  and then nothing seemed to happen. It now runs a few seconds of the fluid
+  on the spot, so the bar is already moving — at about three quarters of its
+  settled rate a fifth of a second later. The same goes for launch.
+
 ## 0.1.43 — 2026-10-27
 
 - **Wash away burns the words into light.** The letters lean and bend with
