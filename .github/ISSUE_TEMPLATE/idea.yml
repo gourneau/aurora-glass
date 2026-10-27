@@ -1,0 +1,20 @@
+# Source lives here; ./issue-templates.sh pushes it to the public repo.
+name: An idea
+description: A look, a setting, or something it ought to do.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What you would like
+      description: A sentence is plenty.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: What you would use it for
+      description: Optional, and the most useful part — the use tends to suggest a better feature than the request does.
+    validations:
+      required: false
