@@ -5,6 +5,25 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.47 — 2026-10-27
+
+- **Looks have options, like screensavers used to.** The Look tab has a new
+  card for the look on show, with the knobs it offers as sliders. Starlight
+  offers how many stars, how far apart, how deeply they twinkle, how many
+  shooting stars and how long their tails are; Fairy Dust its motes; every
+  look its brightness and glow.
+- **Edit a look as text.** The same card opens the look as a short `.aurora`
+  file to edit and apply, and copies, pastes, saves and opens them, so a look
+  can be sent to someone. The language, including how a look declares its
+  own options, is documented at
+  [aurora.radiantmachines.com/docs.html](https://aurora.radiantmachines.com/docs.html).
+- **The aurora swell.** `aurora say --swell`, or *Aurora swell* in System →
+  Messages: a bold piece of aurora bulges down out of the bar in the look's
+  own colors with the line in it, then sinks back in.
+- **Put the text where there is room.** On a smaller screen the app menus can
+  reach the notch. Messages can now go left of the notch, right of it, or
+  anywhere along the bar, and `aurora say --place right` moves one message.
+
 ## 0.1.46 — 2026-10-27
 
 - **No more flicker.** On XDR displays the bar would now and then dip darker
