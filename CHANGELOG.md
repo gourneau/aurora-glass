@@ -5,19 +5,33 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.42 — 2026-10-27
+
+- **Starlight**, a new look: nebula colors — deep indigo, violet and pink,
+  with the pale cyan of starlight — a field of stars in the dark between the
+  curtains, and every so often a shooting star across the bar. With tails on,
+  the stars carry on into the sky the tails hang in.
+- **Stars** and **Shooting stars** are settings of their own (Look tab, under
+  Sparkle), so any look can have a night sky. The stars hold still while the
+  aurora drifts past them, and dim behind a bright curtain.
+- **New blank** starts a palette of your own from plain grays, alongside
+  *New from this*.
+- American spelling throughout the app, the command line and the website:
+  color, not colour.
+
 ## 0.1.41 — 2026-10-27
 
-- **Make your own palettes.** In Look → Colour, *New from this* copies the
+- **Make your own palettes.** In Look → Color, *New from this* copies the
   palette on show into one you can edit, with the bar itself as the preview.
-  The first colour is labelled *Bar*, because it very nearly is: the aurora is
-  highlights on top of it, so it is the colour to change first. Each colour
+  The first color is labeled *Bar*, because it very nearly is: the aurora is
+  highlights on top of it, so it is the color to change first. Each color
   has hue, saturation and brightness sliders and a hex field. Palettes can be
   renamed and deleted, and a saved look that used one follows it through a
   rename.
 - **Share a palette as one line of text.** *Copy as text* gives
   `aurora palette "#5a0c12" "#c2361f" "#f08a24" "#ffd27a"  # Ember` — a
   working command in any shell, with the name riding along as a comment.
-  *Paste* turns a line like that, or any two to four `#rrggbb` colours, back
+  *Paste* turns a line like that, or any two to four `#rrggbb` colors, back
   into a saved palette.
 
 ## 0.1.40 — 2026-10-27
@@ -51,7 +65,7 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
   most visible as a fix with the wispy edge on.
 - The wispy edge's movement keeps step with the aurora's own pace. A new
   **Edge pace** setting speeds it up or slows it down relative to the rest,
-  and the Music visualiser moves it faster when the music is louder.
+  and the Music visualizer moves it faster when the music is louder.
 - The self-check no longer says "renderer ok" when one of two displays has
   failed to start.
 
@@ -99,7 +113,7 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## 0.1.31 — 2026-10-26
 
-- Agent verdicts (passed, failed) choose a colour that stands out from the
+- Agent verdicts (passed, failed) choose a color that stands out from the
   look they are laid over, and change how the aurora moves, so they read on
   any look — including one that is already green or red.
 
@@ -108,7 +122,7 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 - The `aurora` command is worth wiring into a coding agent: `aurora hook`
   reads a Claude Code hook and shows busy, waiting, passed or failed, across
   several sessions at once.
-- A reorganised website.
+- A reorganized website.
 
 ## 0.1.29 — 2026-10-26
 
