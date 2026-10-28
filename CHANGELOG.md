@@ -5,6 +5,22 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.49 — 2026-10-28
+
+- **Agent states move the way you expect.** Working is a soft light sweeping
+  across the bar, over and over, like a progress bar. Waiting breathes,
+  slowly brighter and dimmer, until you answer. Done is one ripple spreading
+  out from the middle, then calm. Failed is two quick red blinks. The colors
+  are as before, so each still stands out against any look.
+- **Shape the aurora swell.** With the swell chosen in System → Messages, new
+  sliders set how far it drops, how much it drips (from a clean band to a
+  rounded drop; it is less drippy than before by default), how long its wisps
+  trail and how wide it is, with a Preview button.
+- **Examples need nothing installed.** The command-line examples use `ping`
+  instead of a made-up script.
+- **Homebrew is current again.** `brew install --cask gourneau/tap/aurora-glass`
+  had been installing 0.1.5. It installs the newest build now, and every
+  release updates it.
 ## 0.1.48 — 2026-10-28
 
 - **A new icon.** The app has an icon of its own at last — the two arcs of the
@@ -28,6 +44,15 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
   runs the app's own renderer in a WebGPU browser, with every built-in look,
   their options as sliders and the `.aurora` text beside them. Paste a look in
   or copy one out.
+- **The look editor is friendlier.** The built-in looks are tiles with their
+  pictures instead of a drop-down, the text is colored as you type (a name a
+  look does not have is underlined, and so is any line that is skipped), and a
+  Live badge on the preview flashes each time an edit takes effect. Click a
+  color in the text for the system's color chooser, or a number for a slider.
+- **The website's menu bar behaves like one.** The page or section you are in
+  is lit like an open menu, and it follows you as you scroll. The light hanging
+  below the bar fades away wisp by wisp as you scroll down, instead of being
+  cut off.
 - **A new website.** The menu bar at the top of
   [aurora.radiantmachines.com](https://aurora.radiantmachines.com) is the app
   itself, running in your browser, and a gallery of every look switches it.
