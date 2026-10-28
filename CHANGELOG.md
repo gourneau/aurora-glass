@@ -5,6 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.51 — 2026-10-28
+
+- **Working is calmer.** While an agent works, a soft glow now drifts across
+  the bar every three seconds, and the aurora speeds up much less than before.
+  The brighter, faster version read as flicker on a bar you look at all day.
 ## 0.1.50 — 2026-10-28
 
 - **No more flash when tails draw back up.** As the launch's arrival or an
