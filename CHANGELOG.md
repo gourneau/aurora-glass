@@ -5,6 +5,14 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.52 — 2026-10-28
+
+- **The report finds more on its own.** The System tab's report now says
+  whether your display is at its default resolution or scaled (like More
+  Space), its refresh range, whether the menu bar hides itself, Reduce Motion,
+  light or dark mode, Low Power Mode, which look and edge you are using, and
+  how smoothly frames are actually arriving. Still nothing personal, and it is
+  only sent when you press the button.
 ## 0.1.51 — 2026-10-28
 
 - **Working is calmer.** While an agent works, a soft glow now drifts across
