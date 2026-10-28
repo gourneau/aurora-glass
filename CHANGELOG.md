@@ -5,6 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.50 — 2026-10-28
+
+- **No more flash when tails draw back up.** As the launch's arrival or an
+  attention pulse ended, the bar brightened for a moment and the bottom of it
+  dimmed in one frame. It now fades out smoothly.
 ## 0.1.49 — 2026-10-28
 
 - **Agent states move the way you expect.** Working is a soft light sweeping
