@@ -28,6 +28,11 @@ Not there yet: a Looks folder the app watches, double-clicking a `.aurora`
 file to install it, and `auroraglass://` links. They are the next steps in
 [the plan](mods.md).
 
+You can also write one in the browser:
+[the look editor](https://aurora.radiantmachines.com/editor.html) runs the
+app's own renderer on the page, so the bar you see there is the bar you will
+get. When it looks right, press **Copy** and paste it into the app.
+
 ## A whole file
 
 This is Starlight, as the app writes it:
