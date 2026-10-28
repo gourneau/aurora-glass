@@ -5,6 +5,26 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.54 — 2026-10-28
+
+- **Each preset shows its look** as a small piece of its bar, rendered by the
+  app itself, so you can see what you are choosing before you choose it; the
+  look you are on is outlined.
+- **A simpler panel.** The Drive tab offers On its own, Music and AI agent;
+  the Weather, Wind and custom script modes are gone (anything else can drive
+  the bar from the `aurora` command, in any mode), and anyone who was on one
+  is moved to On its own. Live inputs are folded away until you open them.
+- **Pace is on the Motion tab only.** It was on Look as well, which made one
+  slider look like two different speeds.
+- **System is now General**, with an **About** card: who made it, how to
+  reach us, and links to the website, docs, help and editor. The report is folded into **Report and diagnostics** at the
+  bottom while the aurora is drawing, and still opens first when it is not.
+- **The right-click menu is shorter**: pause, pick a look, settings, quit.
+  Color, pointer and restarting the fluid live in the panel.
+- **The swell has no wisps by default**, a clean edge. Anyone still on the old
+  default is moved once; a value you chose is kept. The swell's own Preview
+  button is gone, since Try it shows a swell when Swell is chosen.
+
 ## 0.1.53 — 2026-10-28
 
 - **The menu bar stays smooth while an agent is working.** The working state
