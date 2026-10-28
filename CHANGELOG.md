@@ -5,6 +5,41 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.48 — 2026-10-28
+
+- **A new icon.** The app has an icon of its own at last — the two arcs of the
+  website's logo, in aurora colors — and the same mark replaces the sparkles in
+  the menu bar and at the top of the settings panel.
+- **One Edge choice: Clean, Wispy or Tails.** The Layout tab used to have a
+  Wispy edge switch and a Tails slider, and the two together looked broken.
+  Now it is one choice. If you had both on, you keep the tails.
+- **Tails that get your attention.** The Drive tab has a new card, When an
+  agent needs you: color only as before, drop tails of light below the bar for
+  a few seconds when an agent starts waiting or something fails, or keep
+  dropping them every 20 seconds until it is answered. Tails show behind your
+  windows only.
+- **`aurora hooks --install` wires the command into Claude Code in one go.**
+  It adds `aurora hook` to `~/.claude/settings.json` (or the one in
+  `$CLAUDE_CONFIG_DIR`) without touching anything already there, backs the
+  file up first, and does nothing the second time. A file that is not valid
+  JSON is left alone. `aurora hooks --uninstall` takes out only what it added.
+  The help no longer suggests appending to the file with `>>`, which broke it.
+- **Edit looks in the browser.** [aurora.radiantmachines.com/editor.html](https://aurora.radiantmachines.com/editor.html)
+  runs the app's own renderer in a WebGPU browser, with every built-in look,
+  their options as sliders and the `.aurora` text beside them. Paste a look in
+  or copy one out.
+- **A new website.** The menu bar at the top of
+  [aurora.radiantmachines.com](https://aurora.radiantmachines.com) is the app
+  itself, running in your browser, and a gallery of every look switches it.
+  Help has its own page, the docs cover the `aurora` command, and every page
+  shares one header.
+- **The look editor is gentler on your browser.** It no longer queues frames
+  faster than the graphics card can draw them, warms up over a few frames
+  instead of all at once, and shows a loader until it is ready.
+- **The look editor and the website show the light as the app does.** The
+  wispy edge and tails were nearly invisible in the browser, because its
+  colors were not encoded the way your Mac's screen output is. They now match.
+
 ## 0.1.47 — 2026-10-27
 
 - **Looks have options, like screensavers used to.** The Look tab has a new
