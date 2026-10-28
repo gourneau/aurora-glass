@@ -5,6 +5,21 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.53 — 2026-10-28
+
+- **The menu bar stays smooth while an agent is working.** The working state
+  used to speed the aurora up and stir it harder as well as sweeping a band of
+  light across it, and macOS redraws the menu bar over a fast-moving aurora in
+  patches that flicker. Working now keeps the look's own pace; the sweep is
+  what says "working". On the menu bar, flickering patches went from about one
+  every two frames to none. The burst of life at launch is unchanged.
+- **The website looks right on a phone.** The live menu bar and the live look
+  card were squeezing a whole desktop bar's worth of aurora into a phone's
+  width, so looks blurred into one flat strip and switching between them
+  barely showed. They now draw at a desktop's scale and show the middle of it.
+  The page no longer scrolls sideways on a phone either.
+- **The look you pick on the website comes alive in its card** as well as in
+  the menu bar at the top of the page.
 ## 0.1.52 — 2026-10-28
 
 - **The report finds more on its own.** The System tab's report now says
