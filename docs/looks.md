@@ -233,6 +233,8 @@ when you press Apply.
 | `starspacing` | how far apart the stars are; 1 is the usual spacing | 0.4 – 4 |
 | `startwinkle` | how deeply the stars twinkle; 0 holds them steady | 0 – 2 |
 | `meteorlength` | how long a shooting star's tail is | 0.3 – 3 |
+| `fairies` | fairy flights, roughly how many a minute | 0 – 12 |
+| `fairytrail` | how long a fairy's trail of sparkles lingers | 0.3 – 3 |
 
 **Motion**
 
@@ -310,7 +312,7 @@ when you press Apply.
 | Halloween | Pumpkin orange, guttering like a candle. | Brightness, Glow |
 | Christmas | A fir-green bar, with holly red and tinsel in the bright parts. | Brightness, Glow |
 | Thanksgiving | Deep russet and cranberry, as slow as it gets. | Brightness, Glow |
-| Fairy Dust | Rose and lilac, with gold motes that twinkle. | Brightness, Glow, Fairy dust, How many motes, Twinkle speed |
+| Fairy Dust | Rose and lilac, with gold motes that twinkle, and now and then a fairy flying by. | Brightness, Glow, Fairy dust, How many motes, Twinkle speed, Fairy flights a minute, Fairy trail |
 | Pumpkin Spice | Pumpkin, caramel and cinnamon under whipped cream — slow, warm and cozy. | Brightness, Glow, Glints |
 | Starlight | Nebula colors, a field of stars, and the odd shooting star. | Brightness, Glow, Star brightness, How many stars, Star spacing, Twinkle, Shooting stars a minute, Shooting star tails, Motes in the nebula |
 | Rave | Loud, fast, hue-cycling. You asked for cool. | Brightness, Glow |
