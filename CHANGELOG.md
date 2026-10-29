@@ -5,6 +5,25 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.76 — 2026-10-29
+
+- **The menu bar icon has a motion for every state.** Working, needs you,
+  done and failed each have their own — light along the lines, breathing,
+  swaying, drawn in light, blinking, or still — in Settings › States, each
+  with a live preview and a ▶ that plays it on the real icon. The pair of
+  eyes is gone.
+- **The look editor is in color**, as the website's is, and types straight
+  quotes.
+- **Agents is three sections:** Agents (setting up), States (how each state
+  shows on the bar and the icon) and Attention (getting your attention and
+  acknowledging).
+- **Activity shows the date, and everything about a row.** The table keeps
+  to when, project, state and what; select a row for the folder, prompt,
+  tool, message, agent, Mac and session, with Copy. Now has no stripes.
+- **The Settings sidebar can no longer be hidden** — there was no way to
+  bring it back — and the line under the switch is the look's name alone,
+  on a line of its own, so it fits.
+
 ## 0.1.75 — 2026-10-29
 
 - **The look editor has its own section.** Settings › Look Editor shows the
