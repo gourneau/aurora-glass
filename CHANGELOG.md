@@ -5,6 +5,16 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.74 — 2026-10-29
+
+- **Rave no longer strobes on the menu bar.** Its rays were dragged by the
+  most turbulent fluid of any look, so they jumped back and forth every frame
+  — recorded on a real bar, a quarter of it flipping and flipping back — and
+  cut the bar into hard-edged blocks. They drift smoothly now, still fast.
+- **Trying looks shows them as they are.** Choosing a look or colors while
+  a done or failed color is holding on the bar acknowledges it, so you see
+  the look itself, not the verdict's tint over it. A "needs you" stays.
+
 ## 0.1.73 — 2026-10-29
 
 - **Looks and colors are picked the same way, side by side.** Two columns
