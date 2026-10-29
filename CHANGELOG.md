@@ -5,6 +5,24 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.62 — 2026-10-29
+
+- **Pause on battery now looks like a pause.** Unplugged, the aurora holds
+  still where it is instead of disappearing, and uses no GPU. It wakes for a
+  moment to show an agent's state, a new look or a message, then holds again.
+  The panel says whether you are plugged in, because on a plugged-in Mac the
+  switch did nothing you could see, and the header reads "Paused on battery"
+  while it is.
+- **The visor has options.** Under General → Messages with Visor chosen: type
+  the line letter by letter or show it all at once, how fast it types, the
+  blinking cursor, the › prompt mark and the colored edge along its bottom.
+  The defaults are the visor as it was.
+- **The look language reference is versioned.** The docs say which format of
+  the language they describe and when it last changed, every value says
+  which release added it, and a new Language versions section lists what each
+  release changed. Format 1 only ever grows, so a look you write today keeps
+  working.
+
 ## 0.1.61 — 2026-10-28
 
 - **Fairy flights in Fairy Dust.** Now and then a point of light flies across
