@@ -5,6 +5,13 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.56 — 2026-10-28
+
+- **Changing looks ripples the bar.** Picking a new look sends two rings out
+  from the middle of the bar, bending the aurora like a wave passing through
+  water, and then it settles into the new look. The same happens when you
+  pick a look on the website. Skipped when Reduce Motion is on.
+
 ## 0.1.55 — 2026-10-28
 
 - **No more flash of the wrong colors when macOS adjusts the screen.** When
