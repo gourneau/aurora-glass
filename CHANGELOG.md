@@ -5,6 +5,64 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.63 — 2026-10-29
+
+A design review of every pane, page and pixel, and a release built around
+what Aurora Glass is best at: showing you what your agents are doing.
+
+- **Working finally looks like working.** The old sweep was faint and spent
+  a third of each pass off the end of the bar, so a working bar often looked
+  idle. Now a light travels the bar the whole time an agent works. Choose how
+  in the new Agents tab: **Comet** (the default, one for each agent at work,
+  up to two), **Scanner**, **Chase**, **Flow** (the calmest) or **Glint**.
+  It shows on dark looks too, and with Reduce Motion on it drifts slowly.
+- **Agents show on the bar out of the box.** There is nothing to switch on:
+  the bar looks like your look until an agent works, needs you or finishes.
+  To have the aurora and nothing else, turn off Show what your agents are
+  doing at the top of the Agents tab.
+- **An Agents tab.** Connect Claude Code with one button, play any state on
+  your own bar to see what it looks like, choose the working motion, decide
+  how loudly it asks for you, and set up messages, all in one place.
+- **The AI agent mode is gone, because it made things worse.** Choosing it
+  switched off the done ripple, the working light and the waiting state and
+  replaced your look's colors. Agents now show over any look, whatever else
+  is set. If you had it chosen, you are moved back to On its own.
+- **The status light tells the truth with Claude Code.** Opening a session,
+  `/clear` or resuming no longer shows working before you have asked for
+  anything. The bar no longer turns amber a minute after every finished
+  reply: needs you now means a permission prompt, a question or a usage
+  limit. A subagent finishing no longer plays done while the main agent is
+  still working. Failed means a turn ended on an error from Claude's
+  servers. Run `aurora hooks --install` again, or press Connect in the Agents
+  tab, to pick these up; your own hooks are kept.
+- **Choosing a look no longer wipes your agents' state.** Pick a look while
+  Claude was working and the bar used to say idle.
+- **Failed never looks like needs you.** On a purple look the two came out
+  nearly the same amber.
+- **Defaults can no longer wipe your saved looks.** It was one unconfirmed
+  click in the footer of every tab. It is now Reset All Settings at the
+  bottom of General, it asks first, and your saved looks and colors are kept.
+- **A cleaner panel.** Five tabs: Look, Agents, Motion, Display, General.
+  The looks are a compact grid with your own looks among them, and the
+  look's sharing and color actions are one menu. Sliders read clearly, their
+  reset arrows appear only once you have moved them and now go back to the
+  look's own value, and text is never smaller than 10 points. About twenty
+  engineering controls left the panel; every one is still in look files.
+  Glass compensation is gone.
+- **The header says what your agents are doing**, not the frame rate.
+- **A new install starts on Northern Lights**, a real look, rather than an
+  unnamed set of defaults.
+- **Opening Aurora Glass again opens its settings**, for when macOS hides the
+  menu bar icon. Copy and Paste work in the panel's text fields.
+- **The right-click menu** shows what your agents are doing and can clear it,
+  lists your saved looks, has About Aurora Glass, and restarts the animation
+  with Option held.
+- `aurora --help` is rewritten: setup first, each state as it looks now, and
+  it fits an 80-column terminal.
+- **The website** leads with the agents, says up front that the app asks for
+  no permissions, describes each state as it really looks, and no longer
+  scrolls sideways on a phone.
+
 ## 0.1.62 — 2026-10-29
 
 - **Pause on battery now looks like a pause.** Unplugged, the aurora holds
