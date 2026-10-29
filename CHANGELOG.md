@@ -5,6 +5,20 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.68 — 2026-10-29
+
+- **More ways to acknowledge, to try.** The Agents tab has a new
+  Acknowledging card with five, all off until you switch them on:
+  - a dot on the menu bar icon (green, red or amber) until you acknowledge;
+  - clicking the icon to acknowledge, where the next click opens the panel;
+  - resting the pointer on the menu bar for a second;
+  - ⌃⌥⌘A from any app;
+  - opening the panel.
+
+  None of them needs a permission.
+- **Acknowledging quiets needs you as well,** until the agent asks again,
+  not only done and failed.
+
 ## 0.1.67 — 2026-10-29
 
 - **Check for Updates.** It's in General › About, and only runs when you
