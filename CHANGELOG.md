@@ -5,6 +5,21 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.61 — 2026-10-28
+
+- **Fairy flights in Fairy Dust.** Now and then a point of light flies across
+  the bar in an arc, leaving a trail of sparkles that twinkle, drift down and
+  go out. How often, and how long the trail lingers, are sliders on the look
+  itself, and any look can have them under Fine-tune. On the website too.
+- **Every slider explains itself.** Click the info icon next to a slider's
+  name and a line underneath says what it does. Brightness, glow, rays,
+  turbulence and the rest all have one now.
+- **Live inputs shows up with the rest of the Drive tab**, instead of a beat
+  later.
+- **Resizing the website's window no longer makes the bar flicker.** The
+  live bar used to restart its aurora on every frame of the drag and keep
+  flickering for a moment after; it now carries on through the resize.
+
 ## 0.1.60 — 2026-10-28
 
 - **Saying done again ripples again.** A second `aurora done` (or a second
