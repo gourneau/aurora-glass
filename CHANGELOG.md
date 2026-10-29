@@ -5,6 +5,18 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.75 — 2026-10-29
+
+- **The look editor has its own section.** Settings › Look Editor shows the
+  look on the bar in the look language, follows it as you choose others, and
+  applies your edits with Apply (⌘Return), with Revert, Copy, Paste, Import
+  and Export beside it. It used to open small inside the look's card, from
+  a menu nobody found.
+- **Try the menu bar icon where it lives.** Playing a state in Agents, or
+  choosing an icon motion, now plays it on the real menu bar icon too.
+- **Now is a table**, like the activity log under it, and both tables are as
+  tall as their rows.
+
 ## 0.1.74 — 2026-10-29
 
 - **Rave no longer strobes on the menu bar.** Its rays were dragged by the
