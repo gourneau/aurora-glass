@@ -10,6 +10,10 @@ This page is the whole reference. It is also on the website at
 The tables at the end are generated from the app itself by `./docs.sh`, so
 they list exactly what the app accepts.
 
+<!-- generated:version -->
+**This is format 1 of the look language, last changed in Aurora Glass 0.1.61.** Every value in the reference says which release it arrived in, and [Language versions](#language-versions) lists what each release changed.
+<!-- end generated:version -->
+
 ## Using one
 
 Open the panel and go to **Look**. The **This look** card is for the look on
@@ -189,82 +193,82 @@ when you press Apply.
 <!-- generated:parameters -->
 **Color**
 
-| Name | What it does | Range |
-|---|---|---|
-| `exposure` | overall brightness of the aurora's light | 0 – 6 |
-| `opacity` | how much of the bar the aurora covers, 0 to 1 | 0 – 1 |
-| `contrast` | tonal contrast: below 1 is softer, above 1 punchier | 0.1 – 3 |
-| `saturation` | color intensity; the menu bar's glass mutes color, so above 1 is usual | 0 – 3 |
-| `hue` | turns every color around the color wheel, 0 to 1 | 0 – 1 |
-| `cycle` | turns the colors around the wheel over time, per second | -0.2 – 0.2 |
-| `tint` | blends toward a vertical gradient — green low, violet high, as real aurora is | 0 – 1 |
-| `huespread` | how many hues show across the bar at once; 0 puts it all on one color | 0 – 0.5 |
-| `huescale` | how quickly the color changes along the bar | 0.1 – 16 |
-| `huedrift` | how fast the color regions wander | 0 – 1 |
-| `variety` | how different one curtain's color is from the next | 0 – 3 |
+| Name | What it does | Range | Since |
+|---|---|---|---|
+| `exposure` | overall brightness of the aurora's light | 0 – 6 | 0.1.45 |
+| `opacity` | how much of the bar the aurora covers, 0 to 1 | 0 – 1 | 0.1.45 |
+| `contrast` | tonal contrast: below 1 is softer, above 1 punchier | 0.1 – 3 | 0.1.45 |
+| `saturation` | color intensity; the menu bar's glass mutes color, so above 1 is usual | 0 – 3 | 0.1.45 |
+| `hue` | turns every color around the color wheel, 0 to 1 | 0 – 1 | 0.1.45 |
+| `cycle` | turns the colors around the wheel over time, per second | -0.2 – 0.2 | 0.1.45 |
+| `tint` | blends toward a vertical gradient — green low, violet high, as real aurora is | 0 – 1 | 0.1.45 |
+| `huespread` | how many hues show across the bar at once; 0 puts it all on one color | 0 – 0.5 | 0.1.45 |
+| `huescale` | how quickly the color changes along the bar | 0.1 – 16 | 0.1.45 |
+| `huedrift` | how fast the color regions wander | 0 – 1 | 0.1.45 |
+| `variety` | how different one curtain's color is from the next | 0 – 3 | 0.1.45 |
 
 **Light**
 
-| Name | What it does | Range |
-|---|---|---|
-| `glow` | how much bloom surrounds the light | 0 – 4 |
-| `glowspread` | how far the bloom spreads | 0.2 – 6 |
-| `ambient` | an always-on floor of light, so the bar is never fully dark | 0 – 0.4 |
-| `additive` | how much the light adds to what is behind it rather than covering it | 0 – 1 |
-| `cover` | how strongly the light covers what is behind it | 0 – 3 |
+| Name | What it does | Range | Since |
+|---|---|---|---|
+| `glow` | how much bloom surrounds the light | 0 – 4 | 0.1.45 |
+| `glowspread` | how far the bloom spreads | 0.2 – 6 | 0.1.45 |
+| `ambient` | an always-on floor of light, so the bar is never fully dark | 0 – 0.4 | 0.1.45 |
+| `additive` | how much the light adds to what is behind it rather than covering it | 0 – 1 | 0.1.45 |
+| `cover` | how strongly the light covers what is behind it | 0 – 3 | 0.1.45 |
 
 **Rays, sparkle and sky**
 
-| Name | What it does | Range |
-|---|---|---|
-| `rays` | strength of the vertical rays, 0 to 1 | 0 – 1 |
-| `raysharp` | how sharp-edged the rays are | 0.1 – 6 |
-| `rayscale` | how many rays fit across the bar | 0.5 – 30 |
-| `rayspeed` | how fast the rays drift | 0 – 1 |
-| `rayflow` | how much the fluid drags the rays along with it | 0 – 0.5 |
-| `detail` | layers of ray detail, 1 to 7: fewer is broader and calmer | 1 – 7 |
-| `shimmer` | a fine flicker over the whole bar | 0 – 2 |
-| `sparkle` | twinkling motes in the aurora | 0 – 2 |
-| `motes` | how many motes across the bar | 20 – 400 |
-| `twinkle` | how fast the motes twinkle | 0.1 – 6 |
-| `stars` | stars in the dark between the curtains | 0 – 1.5 |
-| `meteors` | shooting stars, roughly how many a minute | 0 – 30 |
-| `starcount` | what share of the sky holds a star | 0 – 1 |
-| `starspacing` | how far apart the stars are; 1 is the usual spacing | 0.4 – 4 |
-| `startwinkle` | how deeply the stars twinkle; 0 holds them steady | 0 – 2 |
-| `meteorlength` | how long a shooting star's tail is | 0.3 – 3 |
-| `fairies` | fairy flights, roughly how many a minute | 0 – 12 |
-| `fairytrail` | how long a fairy's trail of sparkles lingers | 0.3 – 3 |
+| Name | What it does | Range | Since |
+|---|---|---|---|
+| `rays` | strength of the vertical rays, 0 to 1 | 0 – 1 | 0.1.45 |
+| `raysharp` | how sharp-edged the rays are | 0.1 – 6 | 0.1.45 |
+| `rayscale` | how many rays fit across the bar | 0.5 – 30 | 0.1.45 |
+| `rayspeed` | how fast the rays drift | 0 – 1 | 0.1.45 |
+| `rayflow` | how much the fluid drags the rays along with it | 0 – 0.5 | 0.1.45 |
+| `detail` | layers of ray detail, 1 to 7: fewer is broader and calmer | 1 – 7 | 0.1.45 |
+| `shimmer` | a fine flicker over the whole bar | 0 – 2 | 0.1.45 |
+| `sparkle` | twinkling motes in the aurora | 0 – 2 | 0.1.45 |
+| `motes` | how many motes across the bar | 20 – 400 | 0.1.45 |
+| `twinkle` | how fast the motes twinkle | 0.1 – 6 | 0.1.45 |
+| `stars` | stars in the dark between the curtains | 0 – 1.5 | 0.1.45 |
+| `meteors` | shooting stars, roughly how many a minute | 0 – 30 | 0.1.45 |
+| `starcount` | what share of the sky holds a star | 0 – 1 | 0.1.47 |
+| `starspacing` | how far apart the stars are; 1 is the usual spacing | 0.4 – 4 | 0.1.47 |
+| `startwinkle` | how deeply the stars twinkle; 0 holds them steady | 0 – 2 | 0.1.47 |
+| `meteorlength` | how long a shooting star's tail is | 0.3 – 3 | 0.1.47 |
+| `fairies` | fairy flights, roughly how many a minute | 0 – 12 | 0.1.61 |
+| `fairytrail` | how long a fairy's trail of sparkles lingers | 0.3 – 3 | 0.1.61 |
 
 **Motion**
 
-| Name | What it does | Range |
-|---|---|---|
-| `tempo` | the one pace control, over everything that moves | 0.15 – 2.5 |
-| `speed` | how fast the fluid runs | 0.02 – 4 |
-| `wind` | sideways drift of the fluid; negative blows the other way | -6 – 6 |
-| `shear` | how differently the top and bottom of the bar drift | 0 – 8 |
-| `curl` | strength of the turbulence | 0 – 10 |
-| `curlscale` | size of the turbulence | 0.2 – 12 |
-| `curlspeed` | how fast the turbulence changes | 0 – 1 |
-| `curloctaves` | layers of turbulence detail, 1 to 6 | 1 – 6 |
-| `vorticity` | how well swirls hold together | 0 – 6 |
-| `buoyancy` | how fast the light rises | -3 – 4 |
-| `velfade` | how long motion lasts; nearer 1 keeps the fluid moving longer | 0.9 – 1 |
-| `drift` | how fast the curtains travel along the bar | 0 – 0.5 |
+| Name | What it does | Range | Since |
+|---|---|---|---|
+| `tempo` | the one pace control, over everything that moves | 0.15 – 2.5 | 0.1.45 |
+| `speed` | how fast the fluid runs | 0.02 – 4 | 0.1.45 |
+| `wind` | sideways drift of the fluid; negative blows the other way | -6 – 6 | 0.1.45 |
+| `shear` | how differently the top and bottom of the bar drift | 0 – 8 | 0.1.45 |
+| `curl` | strength of the turbulence | 0 – 10 | 0.1.45 |
+| `curlscale` | size of the turbulence | 0.2 – 12 | 0.1.45 |
+| `curlspeed` | how fast the turbulence changes | 0 – 1 | 0.1.45 |
+| `curloctaves` | layers of turbulence detail, 1 to 6 | 1 – 6 | 0.1.45 |
+| `vorticity` | how well swirls hold together | 0 – 6 | 0.1.45 |
+| `buoyancy` | how fast the light rises | -3 – 4 | 0.1.45 |
+| `velfade` | how long motion lasts; nearer 1 keeps the fluid moving longer | 0.9 – 1 | 0.1.45 |
+| `drift` | how fast the curtains travel along the bar | 0 – 0.5 | 0.1.45 |
 
 **Curtains**
 
-| Name | What it does | Range |
-|---|---|---|
-| `emit` | how bright new curtains are | 0 – 5 |
-| `emitspread` | how many curtains there are | 0.3 – 14 |
-| `emitspeed` | how fast curtains are born and change | 0 – 1 |
-| `emitheight` | how tall the band where new light is born is | 0.01 – 1 |
-| `emitcenter` | where new light is born, from 0 at the bottom of the band to 1 at the top | 0 – 1 |
-| `emitthreshold` | how much of the band stays dark between curtains | 0 – 0.95 |
-| `curtains` | how much dark sky opens between curtains, 0 to 1 | 0 – 1 |
-| `fade` | how long color lingers; nearer 1 lingers longer | 0.9 – 0.9999 |
+| Name | What it does | Range | Since |
+|---|---|---|---|
+| `emit` | how bright new curtains are | 0 – 5 | 0.1.45 |
+| `emitspread` | how many curtains there are | 0.3 – 14 | 0.1.45 |
+| `emitspeed` | how fast curtains are born and change | 0 – 1 | 0.1.45 |
+| `emitheight` | how tall the band where new light is born is | 0.01 – 1 | 0.1.45 |
+| `emitcenter` | where new light is born, from 0 at the bottom of the band to 1 at the top | 0 – 1 | 0.1.45 |
+| `emitthreshold` | how much of the band stays dark between curtains | 0 – 0.95 | 0.1.45 |
+| `curtains` | how much dark sky opens between curtains, 0 to 1 | 0 – 1 | 0.1.45 |
+| `fade` | how long color lingers; nearer 1 lingers longer | 0.9 – 0.9999 | 0.1.45 |
 <!-- end generated:parameters -->
 
 ### Palettes
@@ -317,3 +321,25 @@ when you press Apply.
 | Starlight | Nebula colors, a field of stars, and the odd shooting star. | Brightness, Glow, Star brightness, How many stars, Star spacing, Twinkle, Shooting stars a minute, Shooting star tails, Motes in the nebula |
 | Rave | Loud, fast, hue-cycling. You asked for cool. | Brightness, Glow |
 <!-- end generated:looks -->
+
+## Language versions
+
+The language has a format number and the app has a release number, and the
+reference keeps track of both.
+
+- **The format is the rules.** Format 1 only ever grows: a value or a line
+  can be added, but a name is never renamed, removed or given a new meaning.
+  So a file you write today reads the same in every later release, and an
+  older release reading a newer file skips the values it does not know and
+  shows the rest. If a change ever cannot be made that way, the format goes
+  to 2 and this format 1 reference stays published beside the new one.
+- **The release is when something arrived.** Each value in the reference
+  says which release added it, so you can tell which versions of the app a
+  file needs. If you share a look that uses `fairies`, anyone on 0.1.61 or
+  later sees the fairies.
+
+<!-- generated:history -->
+- **0.1.61** — New values: `fairies`, `fairytrail`.
+- **0.1.47** — `option` lines: a look's own sliders, shown in This look. New values: `starcount`, `starspacing`, `startwinkle`, `meteorlength`.
+- **0.1.45** — The language ships: `look`, `author`, `about` and `format` in the header, and `palette`, `set` and `bind` lines.
+<!-- end generated:history -->
