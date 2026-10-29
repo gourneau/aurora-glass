@@ -148,8 +148,8 @@ bind sparkle = 0.5 + 0.2 * sin(t * 0.4)
 ```
 
 `bind <value> = <expression>` recomputes a value every frame. A look's binds
-run underneath the Drive tab's mode. Where both drive the same value, the
-Drive mode wins, so Music still reacts to music on any look.
+run underneath Motion's Moves with setting. Where both drive the same value, Music
+wins, so it still reacts to music on any look.
 
 **Expressions** use numbers, the names below, `+ - * / % ^`, `<` and `>`
 (1 if true, 0 if not), and parentheses.
@@ -162,7 +162,7 @@ Drive mode wins, so Music still reacts to music on any look.
 | Name | What it is |
 |---|---|
 | `t` | Seconds since the app started. |
-| `level`, `bass`, `mid`, `treble`, `beat` | The music, 0 to 1. These only have values while the Drive tab is set to Music, which the person has to choose themselves. |
+| `level`, `bass`, `mid`, `treble`, `beat` | The music, 0 to 1. These only have values while Motion › Moves with is set to Music, which the person has to choose themselves. |
 | `temp`, `wind`, `gust`, `cloud`, `rain` | The weather, in Weather and Wind modes. |
 | `busy`, `wait`, `ok`, `err` | What `aurora busy`, `aurora wait`, `aurora ok` and `aurora fail` last said. |
 | any name set with `aurora set <name> <value>` | Whatever a script or program wrote. |
