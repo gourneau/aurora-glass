@@ -5,6 +5,29 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.71 — 2026-10-29
+
+- **Settings is glassier.** The cards are Liquid Glass, and your look
+  itself, live, flows under the sidebar and behind the window. The window
+  opens a little larger too.
+- **More sections, easier to find.** The sidebar has three groups:
+  - Appearance: Looks, Colors, Light & Sky, Motion, Display;
+  - Agents: Agents, Activity, Messages;
+  - System: General, Performance, About.
+- **Activity records more about each event:** which agent sent it (Claude
+  Code or the aurora command), the project folder, the tool in use, why it
+  needs you, and which Mac it came from. It's all kept on your Mac, ready
+  for the day many agents on many machines report to one place.
+- **The menu bar panel is simpler.** It shows your agents' status with
+  Acknowledge, links to Activity and Agent Settings, the look and colors,
+  Brightness and Pace, and a large Open Settings button. It has no tooltips.
+- **The right-click menu no longer lists looks.** They're in the panel and
+  in Settings.
+- **Clearer speeds.** Pace is the master speed. Motion's Fluid speed and
+  Display's Edge drift each set one part of the motion, and Pace multiplies
+  them all.
+- **The colors' name sits right beside the Colors heading.**
+
 ## 0.1.70 — 2026-10-29
 
 - **Settings is a window now.** It has a sidebar (Look, Agents, Motion,
