@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.78 — 2026-10-29
+
+- **The Settings sidebar can be resized** by dragging its edge — wider or
+  slimmer, between 190 and 360 points, so never out of sight — and keeps
+  its width.
+
 ## 0.1.77 — 2026-10-29
 
 - **Choose which state wins when agents disagree.** Settings › States has
