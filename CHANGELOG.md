@@ -5,6 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.58 — 2026-10-28
+
+- **The looks come first in the Look tab**, where you see them without
+  scrolling, with the look you are on and its colors below them.
+
 ## 0.1.57 — 2026-10-28
 
 - **Colors are part of the look.** The Look tab opens on the look you are
