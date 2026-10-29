@@ -5,6 +5,21 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.70 — 2026-10-29
+
+- **Settings is a window now.** It has a sidebar (Look, Agents, Motion,
+  Display, General), it resizes, and it stays open while you watch the bar.
+  Open it from the menu bar panel, the right-click menu, ⌘, or by opening
+  Aurora Glass again. While it's open Aurora Glass shows in the Dock and has
+  a menu bar of its own.
+- **The menu bar panel is quick and about your agents.** It shows what they
+  are doing right now, with Acknowledge, and the last few things that
+  happened. It also has a quick change of look and colors, Brightness, and a
+  way into Settings.
+- **Tooltips work**, now that settings live in a window.
+- **Edit colors with the Mac's own color picker.** Each color is a color
+  well with its hex value beside it.
+
 ## 0.1.69 — 2026-10-29
 
 - **Hover over a look to see what it is.** A small card opens under the tile
