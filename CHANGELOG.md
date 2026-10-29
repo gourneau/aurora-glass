@@ -5,6 +5,20 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.66 — 2026-10-29
+
+- **Done and failed keep playing until you see them.** Done ripples again
+  every few seconds, and failed blinks again, for as long as their color
+  holds or until you acknowledge it. Played once, they were easy to miss.
+- **Failed holds for 30 minutes by default** (it was 5), so it is still
+  there when you come back to your desk.
+- **Needs you is bolder.** Breathe is deeper and quicker, and the new Bounce
+  sends a band of light up and down the whole bar until you answer.
+- **Up and down as well as along.** New vertical styles:
+  - working can **Rise**, a line of light climbing the bar;
+  - done can **Rise**, a wave sweeping up;
+  - failed can **Bounce**.
+
 ## 0.1.65 — 2026-10-29
 
 - **Choose how each agent state looks.** In the Agents tab, or from a shell:
