@@ -5,6 +5,15 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.60 — 2026-10-28
+
+- **Saying done again ripples again.** A second `aurora done` (or a second
+  `aurora fail`) in a row used to change nothing, because the state had not
+  changed. Each one now plays its ripple or blink again, and a fail pulses
+  again if you have that switched on.
+- **`aurora --version`** says which version of Aurora Glass the command
+  belongs to (also `aurora -v` and `aurora version`).
+
 ## 0.1.59 — 2026-10-28
 
 - **`aurora reset` is immediate.** It used to hold the done or failed colors
