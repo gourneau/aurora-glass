@@ -5,6 +5,33 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.65 — 2026-10-29
+
+- **Choose how each agent state looks.** In the Agents tab, or from a shell:
+  - working is a Comet, Scanner, Chase, Flow or Glint;
+  - needs you breathes or holds steady;
+  - done ripples, glows or just changes color;
+  - failed blinks twice, flashes once or just changes color.
+
+  `aurora style done glow` and the like set them from a shell.
+- **Choose how long a verdict holds.** Done and failed each hold their color
+  for a time you set (done 45 seconds and failed 5 minutes by default), or
+  until you acknowledge it. One verdict can bring its own:
+  `aurora done --hold 30s`, `aurora fail --until-ack`. `aurora busy --hold 2h`
+  keeps a long job showing as working.
+- **Acknowledge.** Let a verdict go with the button in the Agents tab,
+  Acknowledge in the right-click menu, or `aurora ack`.
+- **Activity.** Everything that reaches the bar is kept in a short log:
+  which agent, what it said, and when. See it in the Agents tab or with
+  `aurora log`.
+- **Showing a state stays on until you stop it.** Press ▶ beside a state in
+  the Agents tab and it shows on your bar until you press it again, choose
+  another, or close the panel. It used to play for a few seconds with no
+  sign of how long.
+- **Done is a bright color, never gray.** On a green look it used to drain
+  to a near-white that read as gray. It is now green wherever green stands
+  out, and a bright sky blue where your look is already green.
+
 ## 0.1.64 — 2026-10-29
 
 - **Your look's colors come back after an agent finishes.** Done used to hold
