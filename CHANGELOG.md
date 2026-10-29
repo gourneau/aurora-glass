@@ -5,6 +5,23 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.73 — 2026-10-29
+
+- **Looks and colors are picked the same way, side by side.** Two columns
+  of the same rows — a strip of the look or the colors, and its name — with
+  the one showing highlighted. Nothing opens or closes as you choose, so you
+  can flip between two looks, or two sets of colors, one click each way. The
+  panel and Settings both have it, and in Settings, Looks and Colors are now
+  one section.
+- **Acknowledging no longer makes things disappear.** A session you have
+  acknowledged stays in the panel, dimmed with a check, and what finished in
+  the last hour stays listed while all is quiet, with how long ago.
+- **No more strobing in the Settings sidebar.** The flowing rays flipped
+  whole stripes of the tall sidebar from frame to frame on some looks — Rave
+  badly, Solar Wind, Plasma and Deep Nebula less. The sidebar's aurora keeps
+  its rays still now, follows your Pace, and runs a little slower than the
+  bar; measured on all eighteen looks, none strobes.
+
 ## 0.1.72 — 2026-10-29
 
 - **The menu bar panel says what each agent is doing.** Every session that
