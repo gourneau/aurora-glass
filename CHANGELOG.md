@@ -5,6 +5,40 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.72 — 2026-10-29
+
+- **The menu bar panel says what each agent is doing.** Every session that
+  is working, waiting or just finished gets a row: its project, what it is
+  on right now ("Editing QuickPanel.swift", "Run the site tests", "Claude
+  needs your permission to use Bash"), the prompt that started it and how
+  long it has been at it. Click one for the full activity.
+- **The icon can ask for you, gently.** Choose how the menu bar icon moves
+  while something waits on you: a light running along its lines, breathing,
+  swaying, drawing itself in light, or turning into a pair of eyes — or
+  stay still. It can take the state's color too. Settings › Agents › Menu
+  Bar Icon, with a live preview.
+- **The look shows itself in the panel.** The look is your aurora, live,
+  with its colors on it; click it for every look as a picture. All your
+  colors are there now, wallpaper included, and the name beside them no
+  longer changes as the pointer moves.
+- **Quit is a button again**, and Acknowledge is a big one in the state's
+  color — Return presses it.
+- **Settings is calmer.** The glass and the live aurora are in the sidebar
+  only, and resizing the window no longer makes it flash. The sidebar has
+  colored icons and the on switch at its top.
+- **Settings uses its room.** Sliders sit on one line with their values;
+  each slider's explanation opens in a popover; colors are big, named tiles;
+  Adjust Colors and This Look's Motion are open instead of folded; the
+  stars' and sparkle's own sliders are always there, dimmed until they do
+  something.
+- **Activity is a table** you can sort by time, project, state or agent,
+  with what is happening right now above it.
+- **The visor and the swell have their own sections in Messages,** each
+  with a Try It — so "Letter by letter" or "All at once" is always in view,
+  whatever your default style.
+- Exposure is called Brightness everywhere, and Pace reads in words in the
+  panel as in Settings. A state you preview stops when you close Settings.
+
 ## 0.1.71 — 2026-10-29
 
 - **Settings is glassier.** The cards are Liquid Glass, and your look
