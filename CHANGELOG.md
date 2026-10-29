@@ -5,6 +5,14 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.55 — 2026-10-28
+
+- **No more flash of the wrong colors when macOS adjusts the screen.** When
+  the system said the screen had changed, the app rebuilt its window and drew
+  a frame or two with your bare look, dropping whatever the bar was showing
+  over it, such as an agent's done or waiting colors. It now keeps the colors
+  on screen, and ignores those notices when nothing about the screen changed.
+
 ## 0.1.54 — 2026-10-28
 
 - **Each preset shows its look** as a small piece of its bar, rendered by the
