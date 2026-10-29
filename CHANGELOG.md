@@ -5,6 +5,13 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.59 — 2026-10-28
+
+- **`aurora reset` is immediate.** It used to hold the done or failed colors
+  for about a second and a half before letting go, while setting a state was
+  instant. Both now show within a frame or two: measured at 12 to 68 ms from
+  the command to the bar.
+
 ## 0.1.58 — 2026-10-28
 
 - **The looks come first in the Look tab**, where you see them without
