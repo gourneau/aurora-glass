@@ -5,6 +5,18 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.67 — 2026-10-29
+
+- **Check for Updates.** It's in General › About, and only runs when you
+  press it. It asks the website which version is newest, sends nothing about
+  you or your Mac, and offers the download when there's a newer one.
+- **Colors are their own card.** Brightness and Glow now sit on the look's
+  own card, where they belong, and the color sliders sit under the swatches
+  as Adjust colors.
+- **Descriptions moved into tooltips.** A look's description, and the name
+  of each set of colors, now show when you hover over them, instead of as
+  extra lines of text in the panel.
+
 ## 0.1.66 — 2026-10-29
 
 - **Done and failed keep playing until you see them.** Done ripples again
