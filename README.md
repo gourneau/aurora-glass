@@ -43,7 +43,7 @@ including the one command that says which of them it is.
 **The quickest route needs no account and no Terminal.** Open the panel from
 the menu bar icon, go to the **System** tab, and find the self-check — the
 first card when nothing is drawing, the last one otherwise: it says whether the aurora is being drawn and, if not, what
-stopped it. Press **Send this to the developer** and it comes straight to me,
+stopped it. Press **Send Report** and it comes straight to me,
 carrying the version, the Mac and what the renderer is doing.
 
 It is sent only when you press that button — never on its own — and what
