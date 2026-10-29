@@ -5,6 +5,18 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.57 — 2026-10-28
+
+- **Colors are part of the look.** The Look tab opens on the look you are
+  on, with its colors as a row of swatches right under its name: its own
+  first, then every other look's, your own, your wallpaper, and + to make
+  some. Pick one and the look keeps its motion with the new colors, and its
+  name says so. Picking a different look brings that look's colors. The old
+  colors list lacked half the looks' colors and shared names with looks it
+  did not match, and is gone. The fine color, brightness, ray and star
+  controls are folded under Fine-tune. The header names the look, not its
+  palette.
+
 ## 0.1.56 — 2026-10-28
 
 - **Changing looks ripples the bar.** Picking a new look sends two rings out
