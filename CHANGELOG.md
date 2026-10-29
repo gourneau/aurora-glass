@@ -5,6 +5,25 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.64 — 2026-10-29
+
+- **Your look's colors come back after an agent finishes.** Done used to hold
+  its pale, drained colors until the next prompt, so with Claude Code
+  connected the bar looked dull on every look, Red Arc included, most of
+  the day. Now done holds for 45 seconds after its ripple and then eases back
+  into your look. Failed holds for five minutes. Needs you stays until you
+  answer.
+- **Changing colors ripples the bar**, as changing looks does, so you can see
+  the change happen.
+- **A look's description opens right under the row you clicked**, not at the
+  bottom of the grid, and shows when you hover over a tile.
+- **Setting up agents is two clear steps** at the top of the Agents tab:
+  install the aurora command, then connect Claude Code.
+- **The pointer no longer moves the aurora by default.** Turn it back on
+  under Motion.
+- Quit is a proper button, Restart Animation is back in the right-click menu,
+  and Over the menu bar says what it is for.
+
 ## 0.1.63 — 2026-10-29
 
 A design review of every pane, page and pixel, and a release built around
