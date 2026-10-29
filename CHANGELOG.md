@@ -5,6 +5,23 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.69 — 2026-10-29
+
+- **Hover over a look to see what it is.** A small card opens under the tile
+  with its name and description. The usual tooltips never appeared in the
+  panel, because macOS shows them only while an app is in front, which a
+  menu bar app almost never is.
+- **Colors say their name beside the heading.** Point at a swatch and its
+  name appears next to "Colors": the look it comes from, a built-in set's
+  name, or the name you gave your own. Nothing is called "Custom" any more.
+- **The look's title stays put** when you change its colors or a slider.
+- **Save as New Look is in the look's ⋯ menu**, beside Export and Import. The
+  name box that sat under the looks grid is gone.
+- **Agent styles have descriptive names**: Comet trail, Back and forth, Two
+  lights chasing, Slow drift, Glass glint, Rising line; Breathing glow,
+  Bouncing band, Steady glow; Ripple outward, Wave upward, Whole-bar glow;
+  Double blink, Single flash. The short names still work with `aurora style`.
+
 ## 0.1.68 — 2026-10-29
 
 - **More ways to acknowledge, to try.** The Agents tab has a new
