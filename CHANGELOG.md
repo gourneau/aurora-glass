@@ -5,6 +5,25 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.77 — 2026-10-29
+
+- **Choose which state wins when agents disagree.** Settings › States has
+  an order you can rearrange — by default a failure, then whoever needs
+  you, then done, then working. The bar and the icon show the first that is
+  true, and the panel lists agents in the same order. Before, a later
+  success elsewhere hid a failure, and anyone working hid every result.
+- **The icon's color is per state**, with an "In color" box on each row.
+- **Many agents at once stay tidy.** Past four, the panel's list scrolls
+  and says how many there are.
+- **The panel's look and colors are two compact menus**, each with pictures
+  — nothing opens or folds inside the panel any more.
+- **Trying a look shows it as it is for a few seconds**, then whatever
+  state was showing comes back. It no longer acknowledges anything.
+- **Activity has search and Clear**, and a row's detail says where it came
+  from — which hook, through what — and why it set that state.
+- **The Settings sidebar is a fixed column** — it could still be dragged
+  away — and its header names the colors on the look.
+
 ## 0.1.76 — 2026-10-29
 
 - **The menu bar icon has a motion for every state.** Working, needs you,
