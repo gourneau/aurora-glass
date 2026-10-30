@@ -5,15 +5,20 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.86 — 2026-10-29
+
+- **Look and Colors are plain menus with still pictures.** The moving
+  previews are gone: they came out low and muddy.
+- **The panel's Look and Colors menus open on the first click.** macOS
+  closed a menu opened with the panel's first click as it brought the app
+  forward; the menu now opens again by itself when that happens.
+- **Questions count as needing you.** When Claude asks you something, waits
+  for you to approve a plan, or asks to control your screen, the bar shows
+  "needs you" until you answer — the screen-control dialog fires no hook of
+  its own, so the call that raises it is what the bar goes by.
+
 ## 0.1.85 — 2026-10-29
 
-- **Looks really move in their menus now.** Each look plays a short clip of
-  itself — rendered by the app, a slow look sped up so it shows — in the
-  panel's Look menu and in Settings › Looks & Colors. The previous version
-  only slid a still picture sideways, which on most looks could not be seen.
-- **The Look and Colors menus open on the first click** — this time with a
-  fix aimed at the press itself: the panel keeps itself open from the moment
-  one is pressed, and the app comes forward before the menu opens.
 
 ## 0.1.84 — 2026-10-29
 
