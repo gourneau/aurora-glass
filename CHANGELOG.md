@@ -5,6 +5,23 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.98 — 2026-10-30
+
+- **The panel is about your agents now.** The look and colors fold into one
+  quiet line that says what is on the bar; click it to change them.
+- **Agent rows read properly when Claude starts a turn itself.** A
+  background task finishing, a message from another session or a session
+  reporting back used to show as `<system-reminder>` or
+  `<task-notification>`. The Activity log now says what it was ("Background
+  command … completed", "Message from …"), and those turns no longer
+  replace the last thing you actually asked. Commands read as typed
+  (`/loop 30 mins …`).
+- **Fill the bottom corners of a full-size window.** New in Display ›
+  Corners and notch, off by default: while a window fills the screen, the
+  two slivers of desktop beside its rounded bottom corners take the bar's
+  color, like the top corners do. It looks only at where windows are,
+  never at what is in them, and asks for no permission.
+
 ## 0.1.97 — 2026-10-30
 
 - **Right-click the menu bar icon to see which version you're running**:
