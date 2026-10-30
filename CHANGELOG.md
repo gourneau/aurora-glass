@@ -5,6 +5,17 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.90 — 2026-10-29
+
+- **`aurora login` puts this Mac's agents on a fleet page**, where the
+  agents on all your machines show together. It is invite-only for now.
+  Nothing is sent from a Mac that has not logged in, and from one that has,
+  only what each agent is doing at a glance: its state, the tool's name and
+  the project folder's name. Prompts, file paths and commands stay on the
+  Mac; `aurora fleet preview` prints exactly what would be sent. Sending
+  happens in the background, so hooks are no slower. `aurora fleet` says
+  whether it is connected, and `aurora logout` stops it.
+
 ## 0.1.89 — 2026-10-29
 
 - **The Settings sidebar follows your look and colors.** Its live aurora
