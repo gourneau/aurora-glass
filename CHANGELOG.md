@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.82 — 2026-10-29
+
+- **The panel's look menu moves.** Open it and every look's bar drifts
+  along in its row, at that look's own pace — slow looks slowly, Rave in a
+  hurry — so you can see how each one moves before you pick it.
+
 ## 0.1.81 — 2026-10-29
 
 - **SidePulse plays nice with the SidePulse app.** When its `sidepulse`
