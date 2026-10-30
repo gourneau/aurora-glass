@@ -5,6 +5,16 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.81 — 2026-10-29
+
+- **SidePulse plays nice with the SidePulse app.** When its `sidepulse`
+  command is installed, Aurora sends each program through `sidepulse write`
+  — its checks, its lock, its way of writing — and writes to the device
+  itself only when it is not (or if that ever fails). Settings › SidePulse
+  lets you choose Automatic, Through the SidePulse app, or Directly, and
+  says what it found: the app, whether its service is running, and whether
+  its own Claude Code hooks are lighting the strip too.
+
 ## 0.1.80 — 2026-10-29
 
 - **SidePulse.** Switch it on in Settings › SidePulse and any SidePulse
