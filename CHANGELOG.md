@@ -5,6 +5,14 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.92 — 2026-10-30
+
+- **Your other machines' agents show on this bar too.** Once a Mac is
+  logged in to your fleet with `aurora login`, the bar works, waits and
+  finishes for agents on every machine, and the panel lists each one with
+  the machine it is on. Settings › Agents has a switch to show only this
+  Mac's.
+
 ## 0.1.91 — 2026-10-30
 
 - **Click an agent in the panel to bring its app forward**: Terminal,
