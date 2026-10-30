@@ -5,6 +5,16 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.84 — 2026-10-29
+
+- **Choose the color of each attention state.** In Settings › States, Needs
+  you, Done and Failed each have a color well: Auto (the color picked to
+  stand out from your look, shown as it is) or one you pick. It is that
+  state's color everywhere — the bar, the menu bar icon and SidePulse.
+- **The Settings sidebar follows your look again.** Its live aurora could
+  stop drawing when the window was shown again and sit on the first look
+  it drew.
+
 ## 0.1.83 — 2026-10-29
 
 - **The panel's Look and Colors menus open on the first click.** The first
