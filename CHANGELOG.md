@@ -5,6 +5,13 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.87 — 2026-10-29
+
+- **No more flash when the panel's Look or Colors menu opens.** The first
+  click after the panel opens now lets the app come forward before the menu
+  appears — about a third of a second — instead of opening it, losing it and
+  opening it again. Later clicks open at once.
+
 ## 0.1.86 — 2026-10-29
 
 - **Look and Colors are plain menus with still pictures.** The moving
