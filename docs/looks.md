@@ -287,7 +287,7 @@ when you press Apply.
 | Starlight | `#120d2e #6b2ea8 #e661b8 #85dbfa` |
 | Rose Quartz | `#ff8cb3 #ffbf8c #b380ff #fae6f2` |
 | Flurry | `#ff338c #ffcc26 #26e6ff #8c40ff` |
-| STEVE | `#7340b3 #c78cf2 #f2d9ff #66f299` |
+| Lavender Ribbon | `#7340b3 #c78cf2 #f2d9ff #66f299` |
 | SAR Arc | `#d91a1f #ff4d38 #730814 #ff8c66` |
 | Solar Wind | `#4df2ff #e6ffff #3380ff #1accd9` |
 | Sunset | `#ff5742 #ffa842 #db3d99 #6642c7` |
@@ -307,7 +307,7 @@ when you press Apply.
 | Deep Nebula | Rich swirling color, slow bloom. | Brightness, Glow |
 | Whisper | Barely there. For when you want it subtle. | Brightness, Glow |
 | Flurry | The old OS X screensaver: bright hue-cycling streamers. | Brightness, Glow |
-| STEVE | The mauve ribbon, with its green picket fence. | Brightness, Glow |
+| Lavender Ribbon | A narrow ribbon of lavender light, with a green fringe below. | Brightness, Glow |
 | Red Arc | A stable red arc. Deep, still, barely moving. | Brightness, Glow |
 | Solar Wind | Swirling strands of cyan and white. | Brightness, Glow |
 | Lava Lamp | Fat warm blobs, rising and folding. | Brightness, Glow |
