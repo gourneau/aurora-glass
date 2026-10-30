@@ -5,6 +5,15 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.88 — 2026-10-29
+
+- **The panel's agent list stays current.** A finished agent you have seen
+  leaves after ten minutes rather than an hour. One still marked working but
+  silent for three minutes says "No activity for …" with a hollow dot, so a
+  stalled agent looks different from a busy one. The list shows the five
+  that matter most and links to the rest, instead of scrolling inside the
+  panel.
+
 ## 0.1.87 — 2026-10-29
 
 - **No more flash when the panel's Look or Colors menu opens.** The first
