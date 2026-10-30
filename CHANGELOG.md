@@ -5,6 +5,18 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.89 — 2026-10-29
+
+- **The Settings sidebar follows your look and colors.** Its live aurora
+  paused whenever macOS said the window was covered — even for a moment, or
+  after the window was closed and opened again — and stayed paused, frozen
+  on whatever it last drew. It now runs whenever Settings is open.
+- **STEVE is now Lavender Ribbon.** Same look, a name that says what it is.
+  If you were on it, you still are.
+- **The scripts examples are just the aurora command** — busy, wait, done or
+  fail, say — in the app and on the website alike, without a test runner
+  you might not have.
+
 ## 0.1.88 — 2026-10-29
 
 - **The panel's agent list stays current.** A finished agent you have seen
