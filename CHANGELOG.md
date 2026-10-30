@@ -5,6 +5,8 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.97 — 2026-10-30
+
 - **Right-click the menu bar icon to see which version you're running**:
   it's the first line of the menu.
 - **A look's own colors are called Default** in the colors list, instead
