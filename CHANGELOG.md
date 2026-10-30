@@ -5,6 +5,14 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.79 — 2026-10-29
+
+- **Acknowledge one agent at a time.** Each agent that is waiting on you or
+  has a result has its own ✓, in the panel and in Activity's Now; the bar
+  then shows the next thing that wants you. The button under the list
+  acknowledges everything, and says "Acknowledge All" when there is more
+  than one. `aurora ack --session ID` does the same from a script.
+
 ## 0.1.78 — 2026-10-29
 
 - **The Settings sidebar can be resized** by dragging its edge — wider or
