@@ -5,6 +5,17 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.94 — 2026-10-30
+
+- **Choose how much a machine sends to your fleet** with `aurora fleet
+  level`. Status (states and times, as before) is where every machine
+  starts. Details adds each session's title, model, branch and the tokens of
+  every API call. Content adds the conversation, and full adds what each
+  tool returned. `aurora fleet preview` shows the next batch exactly.
+- **The fleet site shows sessions by their titles**, tokens per turn,
+  project and machine, and each session's conversation, for machines that
+  send them. Each finished turn's step count reaches the fleet too.
+
 ## 0.1.93 — 2026-10-30
 
 - **An agent running in the Claude app opens its own conversation** when you
