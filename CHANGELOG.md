@@ -5,6 +5,26 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- **Right-click the menu bar icon to see which version you're running**:
+  it's the first line of the menu.
+- **A look's own colors are called Default** in the colors list, instead
+  of "This look’s own".
+
+## 0.1.96 — 2026-10-30
+
+- **Herdr's agents show on the bar.** Switch on Settings › Agents › Herdr
+  and every Herdr terminal whose agent reports what it is doing lights the
+  bar like a Claude Code session does: working, needs you, done or failed,
+  on this Mac and on the machines Herdr reaches. Clicking one in the panel
+  brings Herdr forward on that agent's pane. Off by default; nothing of
+  Herdr's runs until it is on. Claude Code running inside Herdr shows once,
+  not twice, and its row also goes straight to its pane.
+- **The panel's on/off switch works on the first click.** It used to take
+  two the first time after opening the panel, and so did "Show agents on
+  the bar".
+- **Pausing no longer makes the panel's header taller**: "Paused" now sits
+  beside the title instead of on a line of its own.
+
 ## 0.1.95 — 2026-10-30
 
 - **The `aurora` command runs on Linux**, so a Linux machine's Claude Code
