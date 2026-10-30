@@ -5,6 +5,19 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.83 — 2026-10-29
+
+- **The panel's Look and Colors menus open on the first click.** The first
+  click used to close the panel instead.
+- **Settings shows SidePulse live.** The strip in Settings › SidePulse plays
+  the very program the device is sent, as the device plays it.
+- **Looks move in Settings too.** In Looks & Colors each look's picture
+  drifts along at that look's own pace, as in the panel's menu.
+- **"What scripts can read now"** shows the four states and the music
+  levels, not the state file's timestamps.
+- The colors line under the look's name in Settings shows only when the
+  colors are not the look's own.
+
 ## 0.1.82 — 2026-10-29
 
 - **The panel's look menu moves.** Open it and every look's bar drifts
