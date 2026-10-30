@@ -5,6 +5,25 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.95 — 2026-10-30
+
+- **The `aurora` command runs on Linux**, so a Linux machine's Claude Code
+  sessions can show in your fleet too. One line installs it, for x86_64 and
+  arm64, with nothing else needed and no root:
+  `curl -fsSL https://aurora.radiantmachines.com/install.sh | sh`, then
+  `aurora hooks --install` and `aurora login`. The download is checked
+  against its published SHA-256 before anything is installed.
+- **Settings has a Fleet section** that says exactly what this Mac sends to
+  your fleet, with a switch for each kind of data: the project folder's
+  name, tool names, session titles, model and version, token usage, your
+  prompts, Claude's replies, tool call inputs and tool output, each with an
+  example. Minimal, Details, Content and Everything set them in one click,
+  and Show What's Sent shows the next batch exactly as it will go. The
+  same switches are `aurora fleet send prompts off` on the command line.
+- **A Mac newly added to a fleet sends only its agents' states and their
+  times** until you turn more on. Macs already in a fleet keep sending what
+  they did.
+
 ## 0.1.94 — 2026-10-30
 
 - **Choose how much a machine sends to your fleet** with `aurora fleet
