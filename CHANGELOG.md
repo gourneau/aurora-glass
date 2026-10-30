@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.93 — 2026-10-30
+
+- **An agent running in the Claude app opens its own conversation** when you
+  click its row in the panel or its icon in Settings' Now table, not just
+  the app. Agents in a terminal or an editor still bring that app forward.
+
 ## 0.1.92 — 2026-10-30
 
 - **Your other machines' agents show on this bar too.** Once a Mac is
