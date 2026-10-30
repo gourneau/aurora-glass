@@ -5,6 +5,16 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.85 — 2026-10-29
+
+- **Looks really move in their menus now.** Each look plays a short clip of
+  itself — rendered by the app, a slow look sped up so it shows — in the
+  panel's Look menu and in Settings › Looks & Colors. The previous version
+  only slid a still picture sideways, which on most looks could not be seen.
+- **The Look and Colors menus open on the first click** — this time with a
+  fix aimed at the press itself: the panel keeps itself open from the moment
+  one is pressed, and the app comes forward before the menu opens.
+
 ## 0.1.84 — 2026-10-29
 
 - **Choose the color of each attention state.** In Settings › States, Needs
@@ -21,8 +31,6 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
   click used to close the panel instead.
 - **Settings shows SidePulse live.** The strip in Settings › SidePulse plays
   the very program the device is sent, as the device plays it.
-- **Looks move in Settings too.** In Looks & Colors each look's picture
-  drifts along at that look's own pace, as in the panel's menu.
 - **"What scripts can read now"** shows the four states and the music
   levels, not the state file's timestamps.
 - The colors line under the look's name in Settings shows only when the
@@ -30,9 +38,6 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## 0.1.82 — 2026-10-29
 
-- **The panel's look menu moves.** Open it and every look's bar drifts
-  along in its row, at that look's own pace — slow looks slowly, Rave in a
-  hurry — so you can see how each one moves before you pick it.
 
 ## 0.1.81 — 2026-10-29
 
