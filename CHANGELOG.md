@@ -5,6 +5,16 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.80 — 2026-10-29
+
+- **SidePulse.** Switch it on in Settings › SidePulse and any SidePulse
+  plugged in shows what the bar shows — the look's colors rolling slowly
+  along it, a light running round while an agent works, a breath while one
+  waits, a ripple when one is done, a double blink when one fails — on the
+  Pro's 8 LEDs or the Dot's 2. Plug one in or out and it is found. Off by
+  default; macOS asks once, when it is first switched on, to let the app
+  write to the SidePulse.
+
 ## 0.1.79 — 2026-10-29
 
 - **Acknowledge one agent at a time.** Each agent that is waiting on you or
