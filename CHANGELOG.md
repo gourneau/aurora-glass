@@ -5,6 +5,18 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.91 — 2026-10-30
+
+- **Click an agent in the panel to bring its app forward**: Terminal,
+  Ghostty, iTerm, VS Code, Cursor or the Claude app. The row shows that
+  app's icon. It brings the app forward, not the exact tab or conversation,
+  which would need permission to control other apps. The Now table in
+  Settings has the same icon to click.
+- **The panel closes when you click another app after choosing a look.**
+  It used to stay open over whatever you clicked.
+- **Brightness and Pace are no longer in the panel**; they are in Settings,
+  with the rest of the look's controls.
+
 ## 0.1.90 — 2026-10-29
 
 - **`aurora login` puts this Mac's agents on a fleet page**, where the
