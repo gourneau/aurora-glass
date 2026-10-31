@@ -5,6 +5,14 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- When your Mac is too busy to keep up, the aurora now slows down smoothly instead of jumping ahead to catch up, which looked broken. It's back to normal speed as soon as the Mac is.
+
+## 0.1.115 — 2026-10-31
+
+- "Ease off when the Mac is busy" is off by default now, and switched off for anyone who had it on: under load, dropping to a half or quarter rate looked worse than what it was easing. Measured with the Mac at load 11, the bar kept every frame on time without it.
+- Performance shows CPU and GPU over the last minute and a half, Aurora Glass's share as a line against all apps together as a shaded area.
+- The Settings window has no full-screen button any more.
+
 ## 0.1.114 — 2026-10-31
 
 - The looks under the Aurora mark show each look's name under its picture, scroll sideways a page at a time with a trackpad or mouse (the arrows still work), and fade in more gently. A small arrow beside the mark shows it opens something.
