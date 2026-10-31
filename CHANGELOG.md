@@ -5,6 +5,13 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.103 — 2026-10-31
+
+- When you've walked away, the aurora can fill the screen: over your screen or covering it, with the time, what needs you, and a card for each agent, big enough to read across the room. Any key or mouse movement clears it. Off by default; Settings › Attention › When you're away, with a Preview button.
+- The panel's title is the look menu: click "Aurora Glass" to change the look. The folded Look row is gone; colors are in Settings.
+- Each agent in the panel has a "…" that unfolds its details (state, app, steps, what it was asked, session id) with buttons to go to it, open Activity, or open its page on the fleet dashboard. Right-click a row for the same.
+- Anyone can join the default fleet now, free with GitHub. Settings › Agents points to it, and Settings › Fleet walks you through it with no Terminal needed. The website says how.
+
 ## 0.1.102 — 2026-10-31
 
 - **Your fleet shows which agents worked together.** A machine in a fleet
