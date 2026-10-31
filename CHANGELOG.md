@@ -5,6 +5,8 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.119 — 2026-10-31
+
 - The bottom corner fills fade in and out instead of appearing all at once.
 
 ## 0.1.118 — 2026-10-31
@@ -12,7 +14,7 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 - Settings opens taller and near the top of the screen, just under the menu bar, so you can see the aurora above it. After that it remembers where you put it.
 
 - New look, Halo: soft pools of blue, violet and amber drifting along the bar, drawn without the fluid simulation, so it's much lighter on the GPU. The fluid looks are all still there.
-- On first launch, the panel asks you to turn off "Show menu bar background" in System Settings, with a button straight to it: with it on, macOS paints over the aurora. It's a first-time setup step only; if you've used the app before you won't see it.
+- A short setup on first launch, in a window with the same glass sidebar as Settings: what the app is, turning off "Show menu bar background" in System Settings (with a button straight to it; with it on, macOS paints over the aurora), and connecting Claude Code. Skip it any time; it comes back after Reset All Settings. If you've used the app before you won't see it.
 
 ## 0.1.117 — 2026-10-31
 
