@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- With an agent's details open in the panel, the list holds still instead of reshuffling every second, and only one agent's details are open at a time.
+
+## 0.1.105 — 2026-10-31
+
+- When your Mac is busy, the aurora eases off instead of stuttering: it skips a frame rather than holding up the app, and if it keeps falling behind it drops to an even half rate for a while, then tries the full rate again once things calm down. Performance says when it's doing this, and Settings › Performance can turn it off.
+
 ## 0.1.104 — 2026-10-31
 
 - The Settings sidebar is the standard macOS sidebar again, with no animation behind it.
