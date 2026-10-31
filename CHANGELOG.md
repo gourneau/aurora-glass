@@ -5,6 +5,33 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.99 — 2026-10-31
+
+- **Run your own fleet server.** Companies that cannot send this to anyone
+  else's cloud can now host the fleet themselves, with their own sign-in.
+  `aurora login --server https://fleet.example.com` joins one, and IT can
+  set the server for every Mac with a configuration profile (or
+  `/etc/aurora/fleet.conf` on Linux), locked if they want, so nobody points
+  a machine elsewhere by mistake.
+- **Fleet servers must be https**, except on the machine itself. Joining a
+  different server starts it back at states and times only, rather than
+  carrying over what you chose to send to the last one.
+- **`aurora fleet status` and Settings › Fleet show the server's version**,
+  and say when the server does not keep something you switched on. A
+  server that is too old or too new for this version is named as such,
+  and nothing waiting to be sent is lost.
+- **Linux machines say they are Linux** on the fleet's pages (they said
+  macOS).
+- **The website has a section on fleets**, and one on SidePulse: agents
+  running across several machines folded into the one bar, exactly what a
+  machine sends when it joins, and the bar's state on the lights beside your
+  keyboard.
+- **The website says what the app actually does.** The pointer stopped
+  moving the aurora by default in 0.1.64 and the page still invited you to
+  stir it; joining a fleet is the one part that wants an account, which the
+  privacy answer left out; a verdict ripples until you have seen it, not
+  once; and the Drive tab has been called Agents for a while.
+
 ## 0.1.98 — 2026-10-30
 
 - **The panel is about your agents now.** The look and colors fold into one
