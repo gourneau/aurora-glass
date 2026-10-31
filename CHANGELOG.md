@@ -5,6 +5,13 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.112 — 2026-10-31
+
+- A new mark: two layered arches of light, in the menu bar, the app icon and the website. The old one looked like a duck.
+- The panel now sits flush against the bottom of the menu bar, with no arrow and no gap, and never reaches into the bar where a notch could hide it. Settings › General can bring the arrow back.
+- The looks under the Aurora mark are pages of six now, with arrows, so they work with any mouse, not only a trackpad; it fades in instead of sliding over the toggle.
+- New in Settings › Agents: "Describe each agent with Apple Intelligence". With Apple Intelligence on, each agent in the panel gets a short line saying what it's doing, written on your Mac by Apple's on-device model. Off by default; nothing leaves the Mac.
+
 ## 0.1.111 — 2026-10-31
 
 - **The fleet's Monitor shows what each agent is working on**: with tool
