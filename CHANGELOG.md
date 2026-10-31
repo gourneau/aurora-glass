@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.113 — 2026-10-31
+
+- Fixed: opening the looks from the Aurora mark pushed the whole panel off to the right and left it stuck that way. Each look's picture now has a fixed size.
+
 ## 0.1.112 — 2026-10-31
 
 - A new mark: two layered arches of light, in the menu bar, the app icon and the website. The old one looked like a duck.
