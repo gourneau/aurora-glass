@@ -5,6 +5,8 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.121 — 2026-10-31
+
 - Settings opens at full height, just under the menu bar, so most sections show without scrolling.
 - In the panel, each agent's details open with a disclosure arrow at the right edge, and the time beside it no longer nudges things as the seconds change.
 
