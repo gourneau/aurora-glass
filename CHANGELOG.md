@@ -5,6 +5,13 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- Built for walking away: a failure now stays on the bar and in the panel until you acknowledge it, and a finished turn stays in the panel until you've opened it since. Working clears by itself, and so does the done color on the bar.
+- An agent that needs you no longer gets a separate banner: its own row in the panel glows in the alert color.
+
+## 0.1.125 — 2026-10-31
+
+- An agent waiting on you now stays on "needs you" until you answer, finish the turn, or acknowledge it. It used to give up after 15 minutes, and the next thing the agent did turned the bar back to "working" while your answer was still outstanding.
+
 ## 0.1.124 — 2026-10-31
 
 - When nothing is happening, the panel shows the last few things your agents finished and a Show All Activity button for the full history.
