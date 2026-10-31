@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.122 — 2026-10-31
+
+- The look editor on the website draws Halo too, the same as the app does.
+
 ## 0.1.121 — 2026-10-31
 
 - Settings opens at full height, just under the menu bar, so most sections show without scrolling.
