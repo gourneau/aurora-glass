@@ -5,6 +5,15 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- The bottom corner fills fade in and out instead of appearing all at once.
+
+## 0.1.118 — 2026-10-31
+
+- Settings opens taller and near the top of the screen, just under the menu bar, so you can see the aurora above it. After that it remembers where you put it.
+
+- New look, Halo: soft pools of blue, violet and amber drifting along the bar, drawn without the fluid simulation, so it's much lighter on the GPU. The fluid looks are all still there.
+- On first launch, the panel asks you to turn off "Show menu bar background" in System Settings, with a button straight to it: with it on, macOS paints over the aurora. It's a first-time setup step only; if you've used the app before you won't see it.
+
 ## 0.1.117 — 2026-10-31
 
 - "Ease off when the Mac is busy", if you turn it on, now also does less work in each frame while the Mac is busy, on top of the lower frame rate.
@@ -17,7 +26,7 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 - "Ease off when the Mac is busy" is off by default now, and switched off for anyone who had it on: under load, dropping to a half or quarter rate looked worse than what it was easing. Measured with the Mac at load 11, the bar kept every frame on time without it.
 - Performance shows CPU and GPU over the last minute and a half, Aurora Glass's share as a line against all apps together as a shaded area.
-- The Settings window has no full-screen button any more.
+- The Settings window's green button no longer goes full screen: it makes the window the screen's full height at a comfortable width, like System Settings, and back again.
 
 ## 0.1.114 — 2026-10-31
 
