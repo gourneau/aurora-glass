@@ -5,6 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.114 — 2026-10-31
+
+- The looks under the Aurora mark show each look's name under its picture, scroll sideways a page at a time with a trackpad or mouse (the arrows still work), and fade in more gently. A small arrow beside the mark shows it opens something.
+- Closing the panel really does fold everything now: an agent's details and the looks start closed each time it opens.
+
 ## 0.1.113 — 2026-10-31
 
 - Fixed: opening the looks from the Aurora mark pushed the whole panel off to the right and left it stuck that way. Each look's picture now has a fixed size.
