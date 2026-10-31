@@ -5,6 +5,13 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.100 — 2026-10-31
+
+- **Herdr has its own section in Settings.** Herdr now has its own page in
+  the sidebar instead of being a card under Agents. It holds the switch, the
+  Herdr terminals on the bar right now (click one to go to its pane), and
+  whether Herdr's core and its desktop app were found.
+
 ## 0.1.99 — 2026-10-31
 
 - **Run your own fleet server.** Companies that cannot send this to anyone
