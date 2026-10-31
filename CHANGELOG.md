@@ -5,13 +5,28 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
-## 0.1.109 — 2026-10-31
+## 0.1.111 — 2026-10-31
 
 - **The fleet's Monitor shows what each agent is working on**: with tool
   inputs switched on, a machine now sends the line the panel shows under a
   working agent (a command's own description, a file's name), so the fleet's
   pages can show it too. It goes with the inputs switch, not the tools one,
   because it says what the tool was asked to do.
+- 0.1.109 was published twice, by two releases built at once: the download
+  named 0.1.109 is the build with the line above, without the panel changes
+  listed under it, and the Homebrew cask went back to it for a while. This
+  version has everything from both.
+
+## 0.1.110 — 2026-10-31
+
+- Click the Aurora mark at the top of the panel for a strip of every look, each a little picture of its bar; one click puts it on. The menu box beside the mark is gone.
+- "Paused" now lines up with the name at the top of the panel.
+- The panel no longer has an arrow, so it sits right under the menu bar. Settings › General can bring the arrow back.
+
+## 0.1.109 — 2026-10-31
+
+- On macOS 27 the app now gets the newest system look too; it still runs on Tahoe.
+- Closing the panel folds any agent's details you had open, so it always opens tidy.
 
 ## 0.1.108 — 2026-10-31
 
