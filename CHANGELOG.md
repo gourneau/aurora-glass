@@ -5,6 +5,13 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- Click the Aurora mark at the top of the panel for a strip of every look, each a little picture of its bar; one click puts it on. The menu box beside the mark is gone.
+- "Paused" now lines up with the name at the top of the panel.
+- The panel no longer has an arrow, so it sits right under the menu bar.
+
+## 0.1.109 — 2026-10-31
+
+- On macOS 27 the app now gets the newest system look too; it still runs on Tahoe.
 - Closing the panel folds any agent's details you had open, so it always opens tidy.
 
 ## 0.1.108 — 2026-10-31
