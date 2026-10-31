@@ -5,6 +5,8 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.124 — 2026-10-31
+
 - When nothing is happening, the panel shows the last few things your agents finished and a Show All Activity button for the full history.
 
 ## 0.1.123 — 2026-10-31
