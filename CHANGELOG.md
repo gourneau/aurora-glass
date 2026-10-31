@@ -5,6 +5,18 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.101 — 2026-10-31
+
+- Herdr: switching it on now starts it. It used to wait until some other setting changed, so nothing showed. Its section also lists agents that are open but idle.
+- SidePulse's switch had the same problem and is fixed too.
+- The Settings sidebar is a floating pane of clear glass over the aurora, and it shows what the bar is showing, agent colors included.
+- Performance shows real frames a second, once a second, with a graph of the last minute and a half. It read about 200 because every screen and the sidebar were counted together.
+- Frames a second is a ceiling now, and there is a Display choice that runs at your display's own rate (70 on a 70 Hz monitor).
+- The look editor uses the system's text colors instead of a navy background.
+- Launching no longer drops tails below the bar for a few seconds; the launch surge stays inside the bar.
+- The panel shows each agent's app on the left, ringed by its state: a light runs round it while it works, and a badge says what kind of work. The motion can be turned off in Settings › Agents.
+- Fleet: join a fleet from Settings, on our server or one you run yourself, and open the fleet's dashboard from there.
+
 ## 0.1.100 — 2026-10-31
 
 - **Herdr has its own section in Settings.** Herdr now has its own page in
