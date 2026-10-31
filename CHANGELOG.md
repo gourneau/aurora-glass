@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.117 — 2026-10-31
+
+- "Ease off when the Mac is busy", if you turn it on, now also does less work in each frame while the Mac is busy, on top of the lower frame rate.
+
 ## 0.1.116 — 2026-10-31
 
 - When your Mac is too busy to keep up, the aurora now slows down smoothly instead of jumping ahead to catch up, which looked broken. It's back to normal speed as soon as the Mac is.
