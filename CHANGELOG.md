@@ -5,6 +5,19 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.102 — 2026-10-31
+
+- **Your fleet shows which agents worked together.** A machine in a fleet
+  now sends each session's subagents and workflows — what each was asked,
+  what it said, which workflow and phase it ran in — and, for a session the
+  Claude app started from another, which one. The fleet's page for a
+  session lists its team, each agent with its own page, and the sessions it
+  started; the Sessions list sits each under the one that started it. It
+  goes only to a fleet server that keeps it (1.1.0 or newer), under the
+  switches you already have: an agent's description is a title, its type
+  and phase are details, and its conversation follows prompts, replies,
+  tool inputs and output.
+
 ## 0.1.101 — 2026-10-31
 
 - Herdr: switching it on now starts it. It used to wait until some other setting changed, so nothing showed. Its section also lists agents that are open but idle.
