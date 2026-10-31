@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- When nothing is happening, the panel shows the last few things your agents finished and a Show All Activity button for the full history.
+
+## 0.1.123 — 2026-10-31
+
+- Settings now opens right up against the menu bar, using the screen's full height.
+
 ## 0.1.122 — 2026-10-31
 
 - The look editor on the website draws Halo too, the same as the app does.
