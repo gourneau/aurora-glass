@@ -5,9 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.110 — 2026-10-31
+
 - Click the Aurora mark at the top of the panel for a strip of every look, each a little picture of its bar; one click puts it on. The menu box beside the mark is gone.
 - "Paused" now lines up with the name at the top of the panel.
-- The panel no longer has an arrow, so it sits right under the menu bar.
+- The panel no longer has an arrow, so it sits right under the menu bar. Settings › General can bring the arrow back.
 
 ## 0.1.109 — 2026-10-31
 
