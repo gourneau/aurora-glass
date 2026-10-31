@@ -5,6 +5,16 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- Closing the panel folds any agent's details you had open, so it always opens tidy.
+
+## 0.1.108 — 2026-10-31
+
+- An agent asking you something now stays on "needs you" until you answer. Tools it ran alongside the question used to flip it back to working within seconds, so a waiting agent could look busy while you were looking right at the panel.
+- When an agent needs you, the panel opens on an orange banner saying which one and what it wants, with Go to It. New installs drop tails once when an agent first needs you (Settings › Attention).
+- Built for macOS Tahoe properly: the app was marked as built with an older SDK, so macOS drew it in the old style. The Settings sidebar is now the system's own floating glass, like Messages', and controls throughout have the Tahoe look.
+- The Aurora mark at the top of the panel is the look menu; the name beside it is plain text. The panel is a little wider, and Settings › General sets its width.
+- Fleet's per-kind switches are folded under "Choose each kind…"; the four presets stay up front.
+
 ## 0.1.107 — 2026-10-31
 
 - **Your fleet now learns which session started which.** 0.1.102 sent those
