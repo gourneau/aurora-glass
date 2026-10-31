@@ -5,6 +5,13 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.107 — 2026-10-31
+
+- **Your fleet now learns which session started which.** 0.1.102 sent those
+  links before the fleet's server could keep them, so they were dropped and
+  never sent again; this version sends them once more, and only to a
+  server that keeps them.
+
 ## 0.1.106 — 2026-10-31
 
 - With an agent's details open in the panel, the list holds still instead of reshuffling every second, and only one agent's details are open at a time.
