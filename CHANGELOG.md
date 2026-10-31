@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.104 — 2026-10-31
+
+- The Settings sidebar is the standard macOS sidebar again, with no animation behind it.
+- The panel's "Aurora Glass" is a proper button now, with nothing written beside it.
+- Performance says what Aurora Glass takes of your whole Mac: its share of all CPU cores (and of one core), its share of the GPU's time as macOS counts it, and its memory, beside how busy the whole Mac and GPU are. The verdict is judged on that share, so it no longer calls a real cost barely noticeable.
+
 ## 0.1.103 — 2026-10-31
 
 - When you've walked away, the aurora can fill the screen: over your screen or covering it, with the time, what needs you, and a card for each agent, big enough to read across the room. Any key or mouse movement clears it. Off by default; Settings › Attention › When you're away, with a Preview button.
