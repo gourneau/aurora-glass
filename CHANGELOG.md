@@ -5,7 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
-- A working agent's ring in the panel is a Halo now: blue, violet, pink and amber flowing round its icon. Settings › Agents › Working ring switches back to the classic blue light.
+- The panel's quit button just says "Quit".
+
+## 0.1.130 — 2026-10-31
+
+- A working agent's whole card in the panel is a Halo now: blue, violet, pink and amber flowing round its edge with a soft glow. Settings › Agents › Working agents switches back to the classic blue light round the icon.
 - The arrow on each agent row points down while closed and up when open.
 - The small badge on each agent's icon, which shows what it's doing (editing, running a command, searching…), is bigger and readable.
 
