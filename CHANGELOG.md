@@ -5,6 +5,17 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.135 — 2026-10-31
+
+- Done is green and failed is red again by default, with "Stand out from my look" as a choice in Settings › States for colors picked against your look. The dots beside each state now show the color it really uses, and the color swatch is smaller.
+- The working card's glow is more subtle.
+- Apple Intelligence's description of an agent is in its details, beside what the agent itself reported, instead of on the card.
+- Today's totals say "Best day yet" or a streak in plain words; the round-number badge is gone.
+
+- Each agent's card shows how many turns it has taken this session (a switch in the panel's options). Today's overall totals are off unless you turn them on.
+- When an agent needs you, the bar now gets your attention until you answer, by default: its tails drop again every 20 seconds. Settings › Attention has the gentler choices.
+- The panel's options can switch agents off altogether, for just the aurora. The options button is a round button now, easier to spot.
+
 - Tips in the panel are off unless you turn them on (the panel's options, or Settings › Agents).
 
 ## 0.1.134 — 2026-10-31
