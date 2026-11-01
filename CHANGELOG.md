@@ -5,7 +5,16 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
-- A working agent's card can glow across the whole card (the new default) or just round its edge, or use the classic light round the icon: Settings › Agents › Working agents.
+- The panel's options also set its width, whether opening it acknowledges, and Apple Intelligence's descriptions of each agent.
+- Apple Intelligence's line under an agent keeps the same left edge as the lines above it; its mark moved to the end.
+
+## 0.1.132 — 2026-10-31
+
+- A working agent's card can glow across the whole card (the new default) or just round its edge, or use the classic light round the icon. The glow is in shades of the state's own color: blues while working, your needs-you or failed color while it waits for you.
+- The panel has its own options: the slider button beside Activity unfolds the card style, the card animation, today's numbers and tips.
+- Today's numbers in the panel: turns finished, steps taken and time worked, with your streak, a best day or a round number passed. Settings › Activity has the week and all-time totals. Kept on this Mac only.
+- A small tip at the foot of the panel, a different one each time it opens. Switch it off in the panel's options.
+- The arrow that opens an agent's details is a proper round button, and the details no longer show the session ID (right-click still copies it).
 
 ## 0.1.131 — 2026-10-31
 
