@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- A working agent's ring in the panel is a Halo now: blue, violet, pink and amber flowing round its icon. Settings › Agents › Working ring switches back to the classic blue light.
+- The arrow on each agent row points down while closed and up when open.
+- The small badge on each agent's icon, which shows what it's doing (editing, running a command, searching…), is bigger and readable.
+
+## 0.1.129 — 2026-10-31
+
 - A pass against Apple's design guidelines for macOS 27:
   - VoiceOver hears what the menu bar icon is showing, and is told when an agent starts waiting on you or fails. Each agent in the panel says its state and can be acted on from the keyboard.
   - The panel's buttons read "Quit Aurora Glass" and "Settings…", and Acknowledge no longer turns red on a failure.
