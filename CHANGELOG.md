@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- A working agent's card can glow across the whole card (the new default) or just round its edge, or use the classic light round the icon: Settings › Agents › Working agents.
+
+## 0.1.131 — 2026-10-31
+
 - The panel's quit button just says "Quit".
 
 ## 0.1.130 — 2026-10-31
