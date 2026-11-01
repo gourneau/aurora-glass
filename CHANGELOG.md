@@ -5,6 +5,15 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- A pass against Apple's design guidelines for macOS 27:
+  - VoiceOver hears what the menu bar icon is showing, and is told when an agent starts waiting on you or fails. Each agent in the panel says its state and can be acted on from the keyboard.
+  - The panel's buttons read "Quit Aurora Glass" and "Settings…", and Acknowledge no longer turns red on a failure.
+  - Seen agents dim only their icon, so their text stays readable. "Recently" marks done and failed with a shape as well as a color.
+  - The Settings window is titled for the section you're in and reopens where you left it.
+- The setup wizard is a single pane again and connects Claude Code right there.
+
+## 0.1.128 — 2026-10-31
+
 - Agents in the panel keep their places: two that are both working no longer swap every few seconds as each one uses a tool. Rows move only when something changes, like a new turn, a question or a finish.
 
 ## 0.1.127 — 2026-10-31
