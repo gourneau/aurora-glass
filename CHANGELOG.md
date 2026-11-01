@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- Agents in the panel keep their places: two that are both working no longer swap every few seconds as each one uses a tool. Rows move only when something changes, like a new turn, a question or a finish.
+
+## 0.1.127 — 2026-10-31
+
+- Open Settings and Quit share one row at the bottom of the panel.
+
 ## 0.1.126 — 2026-10-31
 
 - Built for walking away: a failure now stays on the bar and in the panel until you acknowledge it, and a finished turn stays in the panel until you've opened it since. Working clears by itself, and so does the done color on the bar.
