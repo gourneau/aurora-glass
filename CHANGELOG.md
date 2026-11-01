@@ -5,6 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.136 — 2026-10-31
+
+- Four new looks. **Campfire**: flames licking up from the bottom of the bar with sparks rising, drawn by a new fire engine, as light on the GPU as Halo. **Fire Plasma**: Plasma's swirling fluid in ember and orange. **River**: a blue current running along the bar. **Ocean**: slow, deep swells of navy and teal.
+- Look files can ask for the fire engine with `set engine 2`.
+
 ## 0.1.135 — 2026-10-31
 
 - Done is green and failed is red again by default, with "Stand out from my look" as a choice in Settings › States for colors picked against your look. The dots beside each state now show the color it really uses, and the color swatch is smaller.
