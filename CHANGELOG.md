@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- The small colored dot beside the panel's "Working" heading is gone; the agents' cards already show the state.
+
+## 0.1.133 — 2026-10-31
+
 - The panel's options also set its width, whether opening it acknowledges, and Apple Intelligence's descriptions of each agent.
 - Apple Intelligence's line under an agent keeps the same left edge as the lines above it; its mark moved to the end.
 
