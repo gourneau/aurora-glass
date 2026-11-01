@@ -11,7 +11,7 @@ The tables at the end are generated from the app itself by `./docs.sh`, so
 they list exactly what the app accepts.
 
 <!-- generated:version -->
-**This is format 1 of the look language, last changed in Aurora Glass 0.1.118.** Every value in the reference says which release it arrived in, and [Language versions](#language-versions) lists what each release changed.
+**This is format 1 of the look language, last changed in Aurora Glass 0.1.136.** Every value in the reference says which release it arrived in, and [Language versions](#language-versions) lists what each release changed.
 <!-- end generated:version -->
 
 ## Using one
@@ -238,7 +238,7 @@ when you press Apply.
 | `startwinkle` | how deeply the stars twinkle; 0 holds them steady | 0 – 2 | 0.1.47 |
 | `meteorlength` | how long a shooting star's tail is | 0.3 – 3 | 0.1.47 |
 | `fairies` | fairy flights, roughly how many a minute | 0 – 12 | 0.1.61 |
-| `engine` | 0 the fluid simulation, 1 the glow: soft pools of color drifting along the bar, far lighter on the GPU | 0 – 1 | 0.1.118 |
+| `engine` | 0 the fluid simulation, 1 the glow: soft pools of color drifting along the bar, 2 fire: flames licking up from the bar's bottom edge; 1 and 2 are far lighter on the GPU | 0 – 2 | 0.1.118 |
 | `fairytrail` | how long a fairy's trail of sparkles lingers | 0.3 – 3 | 0.1.61 |
 
 **Motion**
@@ -296,6 +296,10 @@ when you press Apply.
 | Fir and Tinsel | `#1fa347 #eb1f29 #ffd16b #f5faff` |
 | Harvest | `#a34d21 #fa9e2e #bd2433 #ffdb8c` |
 | Halo | `#1a1a61 #3873ff #d952eb #ff8c47` |
+| Fire | `#380803 #d92e05 #ff850f #ffdb73` |
+| Ember | `#730f03 #f23808 #ff660d #ff9e38` |
+| River | `#08336b #1466c7 #40b8f2 #d1f2ff` |
+| Ocean | `#052b4d #05548c #14949e #b8f2eb` |
 | Monochrome Glass | `#a6c7f2 #d9ebff #738cbf #ffffff` |
 <!-- end generated:palettes -->
 
@@ -322,6 +326,10 @@ when you press Apply.
 | Pumpkin Spice | Pumpkin, caramel and cinnamon under whipped cream — slow, warm and cozy. | Brightness, Glow, Glints |
 | Starlight | Nebula colors, a field of stars, and the odd shooting star. | Brightness, Glow, Star brightness, How many stars, Star spacing, Twinkle, Shooting stars a minute, Shooting star tails, Motes in the nebula |
 | Halo | Soft pools of blue, violet and amber drifting along the bar, with no fluid underneath: the lightest look on the GPU. | Brightness, Glow |
+| Campfire | Flames licking up from the bottom of the bar, with sparks rising: no fluid underneath, light on the GPU. | Brightness, Glow |
+| Fire Plasma | Plasma's swirling patches in ember, orange and gold. | Brightness, Glow |
+| River | A blue current running along the bar, quick and streaked with light. | Brightness, Glow |
+| Ocean | Slow, deep swells of navy and teal, with seafoam where they break. | Brightness, Glow |
 | Rave | Loud, fast, hue-cycling. You asked for cool. | Brightness, Glow |
 <!-- end generated:looks -->
 
@@ -342,6 +350,7 @@ reference keeps track of both.
   later sees the fairies.
 
 <!-- generated:history -->
+- **0.1.136** — `engine 2`: fire, flames licking up from the bar's bottom edge.
 - **0.1.118** — New values: `engine`.
 - **0.1.61** — New values: `fairies`, `fairytrail`.
 - **0.1.47** — `option` lines: a look's own sliders, shown in This look. New values: `starcount`, `starspacing`, `startwinkle`, `meteorlength`.
