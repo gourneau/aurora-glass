@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+- Tips in the panel are off unless you turn them on (the panel's options, or Settings › Agents).
+
+## 0.1.134 — 2026-10-31
+
 - The small colored dot beside the panel's "Working" heading is gone; the agents' cards already show the state.
 
 ## 0.1.133 — 2026-10-31
