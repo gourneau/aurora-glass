@@ -5,6 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.137 — 2026-11-01
+
+- Fixed the bar flickering in blocks, like a broken screen. Rays no longer get dragged along by the fluid on any look, which strobed whole columns on Fire Plasma, Plasma and Rave. River has a little more swirl, which steadies it.
+- The light that shows an agent working is slower, wider and softer, so it no longer gets chopped into blocks by the menu bar's glass. The comet takes 6.4 seconds to cross the bar instead of 3.2, and the other styles slowed to match.
+
 ## 0.1.136 — 2026-10-31
 
 - Four new looks. **Campfire**: flames licking up from the bottom of the bar with sparks rising, drawn by a new fire engine, as light on the GPU as Halo. **Fire Plasma**: Plasma's swirling fluid in ember and orange. **River**: a blue current running along the bar. **Ocean**: slow, deep swells of navy and teal.
