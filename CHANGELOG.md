@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.138 — 2026-11-01
+
+- Settings › States holds still while you choose styles: the menus keep their place and the descriptions keep their room, so picking an option no longer makes the rows hop around.
+
 ## 0.1.137 — 2026-11-01
 
 - Fixed the bar flickering in blocks, like a broken screen. Rays no longer get dragged along by the fluid on any look, which strobed whole columns on Fire Plasma, Plasma and Rave. River has a little more swirl, which steadies it.
