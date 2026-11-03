@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.139 — 2026-11-02
+
+- Wash messages now wash into the aurora where they are: the line softens, takes on your look's colors and thins away over about two seconds, instead of being dragged off to one side and breaking into sparks.
+
+- Settings › Messages shows the Visor or Swell options only when that style is chosen, and its Style, Font and Where menus now line up with the Width slider.
+
 ## 0.1.138 — 2026-11-01
 
 - Settings › States holds still while you choose styles: the menus keep their place and the descriptions keep their room, so picking an option no longer makes the rows hop around.
