@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.140 — 2026-11-02
+
+- Settings lines up: every menu and set of buttons now starts in the same column as the sliders, in Display, Agents, States, Attention, General, Messages and SidePulse.
+
 ## 0.1.139 — 2026-11-02
 
 - Wash messages now wash into the aurora where they are: the line softens, takes on your look's colors and thins away over about two seconds, instead of being dragged off to one side and breaking into sparks.
