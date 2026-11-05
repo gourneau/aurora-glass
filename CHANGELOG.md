@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.143 — 2026-11-04
+
+- Bolder styles for every state, for when you want to see at a glance that something is happening. Working: Bright comet, Marching stripes, Flood across, Flood both ways. Needs you: Deep pulse, Flood across. Done: Flood across, Bright burst. Failed: Alarm, Flood across. Pick them in Settings › States. Your current choices don't change, and on some Macs faster motion can make the menu bar flicker over it.
+- Settings explains itself: every page opens with what it's for, every slider and menu has a tooltip and an info button, and jargon is gone (Motes, Altitude tint, Spread scale, Travel and more have clearer names). "See-through background" is now "Solid background", and it hides when it wouldn't do anything.
+- New way for the aurora to come in and go away: Flood from the top, an even sheet across the whole bar. Coming in and going away now take 2 seconds by default.
+
 ## 0.1.142 — 2026-11-04
 
 - With the aurora showing only while agents are active, changing any setting now brings it up for a few seconds so you can see the change, including Display settings like the edge and tails, which showed nothing before.
