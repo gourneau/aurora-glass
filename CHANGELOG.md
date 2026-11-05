@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.142 — 2026-11-04
+
+- With the aurora showing only while agents are active, changing any setting now brings it up for a few seconds so you can see the change, including Display settings like the edge and tails, which showed nothing before.
+
 ## 0.1.141 — 2026-11-04
 
 - New: show the aurora only while agents are active (Settings › States › When nothing is happening). With nothing going on you have your ordinary menu bar and the aurora uses no GPU, so anything moving up there means an agent is at work. Choose how it comes in and goes away: fade, pour from the top, drip, rise from the bottom, flood from the left, spread from the middle, or beads that join up, and how long each takes. Choosing one plays it on the bar.
