@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.141 — 2026-11-04
+
+- New: show the aurora only while agents are active (Settings › States › When nothing is happening). With nothing going on you have your ordinary menu bar and the aurora uses no GPU, so anything moving up there means an agent is at work. Choose how it comes in and goes away: fade, pour from the top, drip, rise from the bottom, flood from the left, spread from the middle, or beads that join up, and how long each takes. Choosing one plays it on the bar.
+- Done, failed and needs you keep their own colors on looks that slowly cycle color. Before, they drifted to other hues the longer the app ran, so done could turn violet after about half an hour.
+- Settings stops jumping around: Working agents lists its three choices, each with its own description, and the descriptions under Edge, Frame rate and Fill the screen keep their space when you change the choice.
+
 ## 0.1.140 — 2026-11-02
 
 - Settings lines up: every menu and set of buttons now starts in the same column as the sliders, in Display, Agents, States, Attention, General, Messages and SidePulse.
