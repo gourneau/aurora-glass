@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.144 — 2026-11-05
+
+- The fills from the top and bottom now finish smoothly. A bright line along the bottom edge used to vanish on the last frame, so the fill seemed to snap into place. Flood from the top is also more even across the bar.
+
 ## 0.1.143 — 2026-11-04
 
 - Bolder styles for every state, for when you want to see at a glance that something is happening. Working: Bright comet, Marching stripes, Flood across, Flood both ways. Needs you: Deep pulse, Flood across. Done: Flood across, Bright burst. Failed: Alarm, Flood across. Pick them in Settings › States. Your current choices don't change, and on some Macs faster motion can make the menu bar flicker over it.
