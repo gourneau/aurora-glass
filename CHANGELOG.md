@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.156 — 2026-11-07
+
+- If your Mac sends to a fleet, the fleet's pages now show how far along a working agent is, "Step 3 of 7", from the agent's own plan. Only the numbers are sent: what each step says stays on your Mac.
+
 ## 0.1.155 — 2026-11-07
 
 - A row with a plan no longer says just "plan" under its step when the agent has updated its list. It shows what the agent was last doing instead.
