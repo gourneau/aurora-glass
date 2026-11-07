@@ -5,6 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.148 — 2026-11-07
+
+- The welcome steps now teach the app as well as set it up: where the looks and colors are, with some to try on the spot; what each agent state looks like; a choice about the away screen; and opening at login. A new step explains fleets before you can join one, including that joining sends data to a server, and that you can use ours or host your own. Nothing is sent and the away screen stays off unless you choose. See them in Settings › About › Show Welcome Again.
+- New videos at [aurora.radiantmachines.com/video](https://aurora.radiantmachines.com/video): ten short films with sound, in a player you can flip through with the arrow keys, without scrolling.
+
 ## 0.1.147 — 2026-11-07
 
 - The first thing you see is now a live aurora: stars over a still lake, then curtains of light coming up behind the mountains, drawn in real time at your screen's full resolution. To see it again, use Show Welcome Again in Settings › About.
