@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.153 — 2026-11-07
+
+- Usage in the panel's footer no longer pushes the agent cards to the left. Each agent's name now sits above its numbers, between Quit and Settings, no taller than those buttons.
+
 ## 0.1.152 — 2026-11-07
 
 - Done now means done. An agent that started a workflow, a background agent or a long command used to show as done within seconds, then flip back and forth to working for as long as the job ran, sometimes hours. It now stays working until that work has reported back, and done plays once, at the real end.
