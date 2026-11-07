@@ -25,8 +25,8 @@ an archive:
 
 Every look is a few lines of text in a `.aurora` file: its palette, its
 values, the options it offers as sliders, and values that move on their own.
-Edit one from **Look → This look → Edit as text**, copy it, or save it and
-send it to someone. The whole language is in [docs/looks.md](docs/looks.md)
+Edit one from **Settings → Looks & Colors → Edit This Look**, copy it, or
+export it and send it to someone. The whole language is in [docs/looks.md](docs/looks.md)
 and at [aurora.radiantmachines.com/docs.html](https://aurora.radiantmachines.com/docs.html).
 
 ## If it draws nothing
@@ -40,9 +40,10 @@ including the one command that says which of them it is.
 
 ## Problems and ideas
 
-**The quickest route needs no account and no Terminal.** Open the panel from
-the menu bar icon, go to the **System** tab, and find the self-check — the
-first card when nothing is drawing, the last one otherwise: it says whether the aurora is being drawn and, if not, what
+**The quickest route needs no account and no Terminal.** Click the menu bar
+icon and choose **Settings…**, then find the self-check: the first card on
+**General** when nothing is drawing, **Report a problem** on **About**
+otherwise. It says whether the aurora is being drawn and, if not, what
 stopped it. Press **Send Report** and it comes straight to me,
 carrying the version, the Mac and what the renderer is doing.
 
