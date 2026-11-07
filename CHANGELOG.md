@@ -5,6 +5,13 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.152 — 2026-11-07
+
+- Done now means done. An agent that started a workflow, a background agent or a long command used to show as done within seconds, then flip back and forth to working for as long as the job ran, sometimes hours. It now stays working until that work has reported back, and done plays once, at the real end.
+- The panel shows how far along an agent is, where that can be known: "Step 3 of 7" from the agent's own plan, or a workflow's phase with how many of its agents are running and finished. There is no percentage and no time remaining, because nothing knows those. Open a row's details to see the whole plan, each phase, and what is running in the background.
+- The panel's title now describes the whole list, such as "Needs you, 3 working", instead of saying "Done" over agents still at work.
+- A finished row says when something is left open: steps of its plan not done, or sessions it started that are still working.
+
 ## 0.1.151 — 2026-11-07
 
 - Usage loads more gracefully. The bar and spinner are gone: while numbers are on their way, the ring, bar or segments animate on their own, and when the numbers arrive the graphic fills up to them.
