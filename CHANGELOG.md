@@ -5,6 +5,9 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.149 — 2026-11-07
+
+- Usage has its own page, Settings › Usage, and looks better on the panel. It can show little rings that fill up, bars, segments or plain numbers, compact or larger, on one line between Quit and Settings or elsewhere on the panel, and you choose which limits show, the colors, when reset times appear, and whether it hides until a limit gets close. While numbers are on their way you see a small loading indicator instead of the word Checking, and numbers you already have stay put while they update. OpenAI Codex's limits can show too, read by Codex itself.
 ## 0.1.148 — 2026-11-07
 
 - The welcome steps now teach the app as well as set it up: where the looks and colors are, with some to try on the spot; what each agent state looks like; a choice about the away screen; and opening at login. A new step explains fleets before you can join one, including that joining sends data to a server, and that you can use ours or host your own. Nothing is sent and the away screen stays off unless you choose. See them in Settings › About › Show Welcome Again.
