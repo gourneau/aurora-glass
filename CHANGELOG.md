@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.154 — 2026-11-07
+
+- Codex sessions now show on the bar and in the panel, the way Claude Code sessions do: working, needing you, done. That covers the command line and the Codex app. Connect it under Settings › Agents, or run `aurora hooks --install --codex`. Codex runs a new hook only after you've reviewed it, so afterwards open Codex and type `/hooks` to trust it. Your other Codex hooks and settings are left as they are, and the file is backed up first.
+- Clicking a Codex row brings its terminal forward. For a session in the Codex app, it opens that conversation.
+- With Codex, done means its turn ended, because Codex doesn't say whether anything it started is still running. Needs you shows while Codex waits for your approval, or while one of its questions is waiting for your answer, even as it keeps working.
+
 ## 0.1.153 — 2026-11-07
 
 - Usage in the panel's footer no longer pushes the agent cards to the left. Each agent's name now sits above its numbers, between Quit and Settings, no taller than those buttons.
