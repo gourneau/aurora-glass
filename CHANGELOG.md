@@ -5,6 +5,9 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.146 — 2026-11-07
+
+- Herdr, SidePulse and Fleet each have their own row in Settings' sidebar again, in an Integrations group under Agents, so you can find the one you came for at a glance.
 ## 0.1.145 — 2026-11-06
 
 - Settings › Activity reads properly now. Your totals are a real table with borders and a header, and a chart shows turns a day over the last month. "Since Oct 6" replaces "All counted", Worked is now Time, and the streak, best day and longest turn only appear once they say something. Now comes first, without the gray bar under its rows, and the search box has a magnifier and a clear button. The panel's line of numbers no longer says "1 steps" or "0 turns 0 steps".
