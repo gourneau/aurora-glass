@@ -5,6 +5,9 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.151 — 2026-11-07
+
+- Usage loads more gracefully. The bar and spinner are gone: while numbers are on their way, the ring, bar or segments animate on their own, and when the numbers arrive the graphic fills up to them.
 ## 0.1.150 — 2026-11-07
 
 - The away screen now shows the live night sky from the welcome steps: curtains of light over mountains and a still lake, filling the whole screen. When an agent needs you the curtains turn amber, and red when one fails, so you can tell from across the room. Your own look is still an option in Settings › Attention.
