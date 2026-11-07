@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.155 — 2026-11-07
+
+- A row with a plan no longer says just "plan" under its step when the agent has updated its list. It shows what the agent was last doing instead.
+
 ## 0.1.154 — 2026-11-07
 
 - Codex sessions now show on the bar and in the panel, the way Claude Code sessions do: working, needing you, done. That covers the command line and the Codex app. Connect it under Settings › Agents, or run `aurora hooks --install --codex`. Codex runs a new hook only after you've reviewed it, so afterwards open Codex and type `/hooks` to trust it. Your other Codex hooks and settings are left as they are, and the file is backed up first.
