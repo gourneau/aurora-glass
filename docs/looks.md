@@ -11,22 +11,24 @@ The tables at the end are generated from the app itself by `./docs.sh`, so
 they list exactly what the app accepts.
 
 <!-- generated:version -->
-**This is format 1 of the look language, last changed in Aurora Glass 0.1.136.** Every value in the reference says which release it arrived in, and [Language versions](#language-versions) lists what each release changed.
+**This is format 1 of the look language, last changed in Aurora Glass 0.1.145.** Every value in the reference says which release it arrived in, and [Language versions](#language-versions) lists what each release changed.
 <!-- end generated:version -->
 
 ## Using one
 
-Open the panel and go to **Look**. The **This look** card is for the look on
-show:
+Open Settings and go to **Looks & Colors**. The card named after the look on
+show is for that look:
 
 - **Its options** are sliders: the knobs the look offers, such as Starlight's
   star count and shooting stars.
-- **Edit as text** opens the look as a file. Change it, then press
-  **Apply**. Anything the app could not read is listed under the editor, and
-  the rest still applies.
-- **Copy** puts the look on the clipboard as text. **Paste** applies a look
-  someone sent you.
-- **Save…** writes a `.aurora` file. **Open…** reads one.
+- **Edit This Look…** opens Look Editor, with a slider for each thing that
+  changes this look. Its **Text** side is the look as a file. Change it, then
+  press **Apply**. Anything the app could not read is listed under the editor,
+  and the rest still applies. A few values have no slider and are set only
+  here. Moving a slider writes the text afresh, so any comments in it go.
+- In the card's **…** menu, **Copy Look** puts the look on the clipboard as
+  text and **Paste Look** applies a look someone sent you. **Export…** writes
+  a `.aurora` file. **Import…** reads one.
 
 Not there yet: a Looks folder the app watches, double-clicking a `.aurora`
 file to install it, and `auroraglass://` links. They are the next steps in
@@ -113,7 +115,7 @@ from a fresh look; everything else takes its default.
 ### `option`: a knob the look offers
 
 Options are a look's own settings, like the options screensavers used to
-have. Each one appears as a slider in **This look**.
+have. Each one appears as a slider on **Looks & Colors**, in the look's own card.
 
 ```text
 option stars       "Star brightness"            # one of the look's values
@@ -148,7 +150,7 @@ bind sparkle = 0.5 + 0.2 * sin(t * 0.4)
 ```
 
 `bind <value> = <expression>` recomputes a value every frame. A look's binds
-run underneath Motion's Moves with setting. Where both drive the same value, Music
+run underneath the Moves with setting. Where both drive the same value, Music
 wins, so it still reacts to music on any look.
 
 **Expressions** use numbers, the names below, `+ - * / % ^`, `<` and `>`
@@ -162,8 +164,7 @@ wins, so it still reacts to music on any look.
 | Name | What it is |
 |---|---|
 | `t` | Seconds since the app started. |
-| `level`, `bass`, `mid`, `treble`, `beat` | The music, 0 to 1. These only have values while Motion › Moves with is set to Music, which the person has to choose themselves. |
-| `temp`, `wind`, `gust`, `cloud`, `rain` | The weather, in Weather and Wind modes. |
+| `level`, `bass`, `mid`, `treble`, `beat` | The music, 0 to 1. These only have values while Looks & Colors › Moves with is set to Music, which the person has to choose themselves. |
 | `busy`, `wait`, `ok`, `err` | What `aurora busy`, `aurora wait`, `aurora ok` and `aurora fail` last said. |
 | any name set with `aurora set <name> <value>` | Whatever a script or program wrote. |
 | your options | Each option of the look's own, by name. |
@@ -214,6 +215,7 @@ when you press Apply.
 | `glow` | how much bloom surrounds the light | 0 – 4 | 0.1.45 |
 | `glowspread` | how far the bloom spreads | 0.2 – 6 | 0.1.45 |
 | `ambient` | an always-on floor of light, so the bar is never fully dark | 0 – 0.4 | 0.1.45 |
+| `background` | how much of the palette's first color shows as the bar's base, under the light; a Brightness option moves it along with exposure | 0 – 1 | 0.1.145 |
 | `additive` | how much the light adds to what is behind it rather than covering it | 0 – 1 | 0.1.45 |
 | `cover` | how strongly the light covers what is behind it | 0 – 3 | 0.1.45 |
 
@@ -350,6 +352,7 @@ reference keeps track of both.
   later sees the fairies.
 
 <!-- generated:history -->
+- **0.1.145** — An `option exposure` slider moves `background` too, up to half or double the look's own. A file reads as it always did: `set exposure` alone still moves only `exposure`. New values: `background`.
 - **0.1.136** — `engine 2`: fire, flames licking up from the bar's bottom edge.
 - **0.1.118** — New values: `engine`.
 - **0.1.61** — New values: `fairies`, `fairytrail`.
