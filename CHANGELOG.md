@@ -5,6 +5,32 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.145 — 2026-11-06
+
+- Settings › Activity reads properly now. Your totals are a real table with borders and a header, and a chart shows turns a day over the last month. "Since Oct 6" replaces "All counted", Worked is now Time, and the streak, best day and longest turn only appear once they say something. Now comes first, without the gray bar under its rows, and the search box has a magnifier and a clear button. The panel's line of numbers no longer says "1 steps" or "0 turns 0 steps".
+- On a saved look, or one pasted as text, a slider's reset arrow now goes back to that look's own value. It used to go back to a built-in default, so one click could take the look somewhere it had never been. A look you were already wearing when you update counts as well: how it is that day is what its arrows and Brightness go back to.
+- Settings' sidebar is shorter. Herdr, SidePulse and Fleet now sit under a new Integrations page, and every page starts with its name. On the Agents page, Set up now comes first.
+- The small info buttons beside Settings' options are easier to click.
+- Settings' sliders say what they do. Most now have a word at each end, like Dim and Bright, in place of a bare number, and the exact value is in the slider's info button as the line a look file would use.
+- Light & Sky and Motion are gone, and their sliders live in Look Editor, which you never need to use the app. Its Controls are grouped into Light, Color, Movement, Curtains, Rays, Sparkle & stars and Edge, and show only what changes the look you're on. Halo and Campfire used to list many sliders that did nothing. "How fast it changes" and the curtains' Drift made no visible difference, so they are now set only in a look's text.
+- Messages now show on Halo and Campfire. Those looks have no fluid to draw text into, so a line sent to the bar used to show nothing at all. It now comes out as a swell below the bar, with the Swell options in Settings › Messages.
+- Turning off "Show messages from agents and scripts" now also stops a message sent with --visor or --swell. Those two used to show anyway.
+- Quality is grayed out on Halo and Campfire, where it changes nothing on the bar. It still works when they fill the screen as a wallpaper.
+- Brightness now does what it says. It used to change the bar's light and leave the base color under it, so on most looks the slider barely moved the bar. It moves both now, and choosing a look or clicking its reset arrow puts them back exactly as the look has them. On Halo the slider has room to go brighter too.
+- Looks & Colors is simpler: pick a look, then Brightness, Glow and Pace, with Edit This Look and Revert to Look right there. What moves the aurora, music and the pointer, sits in its own card, Reacts to. On Display, the finer edge and corner options fold under Customize, which says how many you've changed.
+- The website's help and docs, and the help in the aurora command, now name Settings' new pages.
+- With SidePulse off in Settings, Aurora Glass no longer touches a plugged-in SidePulse. Every launch used to write "off" to it, which could blank a strip the SidePulse app was driving and bring up the macOS question about removable volumes.
+- Text you're editing in Look Editor now waits for you if you go to another page and come back. Discard Edits goes back to the text as you last applied it, comments and all, where it used to throw that away too.
+- Paste Look, Import and Apply now refuse text that isn't a look, and say so. Copying some ordinary text and pasting it used to replace the look you were tuning with the built-in defaults, with no way back. A warning from any of them goes away once you change the look or leave the page. A look with a palette line the app couldn't read used to crash it, and now gets a warning like anything else it can't use.
+- The website editor's Brightness slider moves the bar's base color as well as its light, as the app's does, so a look copied from there matches what you saw.
+- Settings tidied up: the Activity table gives its room to the column that says something and only names the day when it isn't today. All of its tables now line up with their card. The Agents page has a card of its own for the menu bar panel, and Set up shrinks to one line once you're connected. States' menus line up, and its play buttons match. Each "How many" slider reads Few to Many. Values line up against their sliders. A page no longer repeats its own name as its first card. Several explanations were corrected, including Opacity's, which offered a fix for hard-to-read menu text that did almost nothing.
+- Settings' menus and choices now sit on the right edge with the switches, and what each one means sits under its name, on every page. Sliders stay where they were.
+- The Activity tables are easier to read. What and Doing are in the strongest color, and a finished turn says "Finished after 22 steps", the same words as the panel, where half the rows used to say "Turn finished".
+- Fleet starts with a short note and a Join Fleet button. The server field is under "Use another server", for the few who need it. Messages has one Try It, on the Style row.
+- Reset All Settings now says what it really does: every setting goes back, and setup starts again.
+- Several slider explanations were corrected. Color lingers warned that the bar turns white at its top end, which it doesn't: it settles and barely moves. Contrast now says its Soft end also brightens the whole bar.
+- General opens much faster. It was asking macOS about Open at login every time it drew.
+
 ## 0.1.144 — 2026-11-05
 
 - The fills from the top and bottom now finish smoothly. A bright line along the bottom edge used to vanish on the last frame, so the fill seemed to snap into place. Flood from the top is also more even across the bar.
