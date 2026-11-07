@@ -20,7 +20,7 @@ body:
     id: version
     attributes:
       label: Aurora Glass version
-      description: The footer of the settings panel, and the top of the right-click menu.
+      description: Settings, under About, and the top of the right-click menu.
       placeholder: "0.1.32"
     validations:
       required: true
