@@ -5,6 +5,9 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.150 — 2026-11-07
+
+- The away screen now shows the live night sky from the welcome steps: curtains of light over mountains and a still lake, filling the whole screen. When an agent needs you the curtains turn amber, and red when one fails, so you can tell from across the room. Your own look is still an option in Settings › Attention.
 ## 0.1.149 — 2026-11-07
 
 - Usage has its own page, Settings › Usage, and looks better on the panel. It can show little rings that fill up, bars, segments or plain numbers, compact or larger, on one line between Quit and Settings or elsewhere on the panel, and you choose which limits show, the colors, when reset times appear, and whether it hides until a limit gets close. While numbers are on their way you see a small loading indicator instead of the word Checking, and numbers you already have stay put while they update. OpenAI Codex's limits can show too, read by Codex itself.
