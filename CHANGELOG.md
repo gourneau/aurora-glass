@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.147 — 2026-11-07
+
+- The first thing you see is now a live aurora: stars over a still lake, then curtains of light coming up behind the mountains, drawn in real time at your screen's full resolution. To see it again, use Show Welcome Again in Settings › About.
+- The panel can show your Claude plan's limits, such as how much of this week you've used. Turn it on in Settings › Agents. It's off by default and reads the numbers from your own Claude Code. If Claude Code isn't installed, or your account has no plan limits, it says so in plain words and shows no number.
 ## 0.1.146 — 2026-11-07
 
 - Herdr, SidePulse and Fleet each have their own row in Settings' sidebar again, in an Integrations group under Agents, so you can find the one you came for at a glance.
