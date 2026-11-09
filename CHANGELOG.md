@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.157 — 2026-11-08
+
+- The welcome steps are shorter: pick a look from a few, connect Claude Code or Codex, and you're set. Fleets come up only if you say you use more than one computer, the step-away screen is one switch, and the menu bar background is a note for anyone who can't see the aurora rather than a step for everyone.
+- The aurora now shows on every display by default, so a Mac whose main display isn't the one in front of you no longer looks like it's doing nothing. If you had it on your main display only, it moves to every display once; you can change it back in Settings › Display.
 ## 0.1.156 — 2026-11-07
 
 - If your Mac sends to a fleet, the fleet's pages now show how far along a working agent is, "Step 3 of 7", from the agent's own plan. Only the numbers are sent: what each step says stays on your Mac.
