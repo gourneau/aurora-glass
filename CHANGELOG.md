@@ -5,6 +5,9 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.158 — 2026-11-08
+
+- A new install starts on Ocean, which visibly moves, instead of Northern Lights, which at rest is nearly one still color and read as the app doing nothing. The welcome steps offer the looks with the most movement first. Your own look is unchanged.
 ## 0.1.157 — 2026-11-08
 
 - The welcome steps are shorter: pick a look from a few, connect Claude Code or Codex, and you're set. Fleets come up only if you say you use more than one computer, the step-away screen is one switch, and the menu bar background is a note for anyone who can't see the aurora rather than a step for everyone.
