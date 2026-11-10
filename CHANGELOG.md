@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.159 — 2026-11-09
+
+- On a wide display the aurora now looks like a laptop's, only longer: its curtains and swirls are the size they are on a laptop, repeated along the bar, and they move as much. Before, each shape was stretched across the whole width and the bar read as one still color, which on an ultrawide looked broken. Laptop screens draw exactly as they did.
+- Settings › Performance shows a new frame rate within a second of choosing it. The graph moves four times a second over the last half minute and rescales right away, where it used to keep the old scale for a minute and a half after going from 120 to 60.
+- Claude Code and Codex usage in the panel's footer no longer jumps about while loading. When one agent's numbers came in before the other's, they could be cut off ("35…") and run into the next column; now both wait and appear together.
+
 ## 0.1.158 — 2026-11-08
 
 - A new install starts on Ocean, which visibly moves, instead of Northern Lights, which at rest is nearly one still color and read as the app doing nothing. The welcome steps offer the looks with the most movement first. Your own look is unchanged.
