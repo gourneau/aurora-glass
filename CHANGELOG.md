@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.165 — 2026-11-10
+
+- Northern Lights no longer looks like it's doing nothing. At rest it was a nearly still green strip; now its green curtains roll into teal and violet, with about ten times the movement, on a darker base so the light stands out. Glacier Drift, Red Arc, Flurry, Thanksgiving, Pumpkin Spice, Sunset and Solar Wind got the same treatment. Red Arc, Thanksgiving and Sunset's Brightness slider also goes higher now. If you've changed any of these looks yourself, your changes are kept.
+
 ## 0.1.164 — 2026-11-09
 
 - SidePulse switches itself on only when the SidePulse app's background service is already running, so only people whose SidePulse is set up and working get it automatically. If SidePulse is installed but its service isn't running, Settings › SidePulse says so and offers to open the SidePulse app.
