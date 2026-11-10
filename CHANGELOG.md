@@ -5,6 +5,14 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.166 — 2026-11-10
+
+- Agents in the panel now go by their session's own name, like "Custom Cordless Red LED Lamp PRD", instead of the folder, with the project, branch and pull request underneath. A finished turn says how it ended in Claude's own words ("gate at 56/64; placement worker fixing 8 fails"), a waiting agent shows the question it's asking or what it wants permission to run, and the details add the model, effort, how much context it's carrying and the turn's full recap.
+- New: **Play**, under Looks & Colors › When the pointer passes. Move the pointer through the bar and stir it like water: the light swirls after it and it leaves a bright trail in the look's own colors that curls and fades over a few seconds. It's off until you pick it. Push, Swirl and Calm moved the bar so little you could hardly see them, so anyone who had one of them now has Play. Glow is now a soft light you can actually see, about two and a half times as wide and twice as bright.
+- Pace is now the way to make a look livelier or calmer, and it works on every look: toward the hare the bar moves more, toward the tortoise less, and the picture stays the same, only faster or slower. Before, at full speed Flurry washed out to a white bar and Ocean got calmer instead of livelier, and every look dimmed when slowed down. A bar set to 120 frames a second also showed about half the color it should; that's fixed too.
+- Sliders that did nothing are gone: Glow on Whisper, Halloween and Lava Lamp (their bright backgrounds leave almost no light to bloom) and Starlight's "Motes in the nebula".
+- Moving the pointer up through the bar pushed the aurora down, and down pushed it up. Fixed, in the app and on the website.
+
 ## 0.1.165 — 2026-11-10
 
 - Northern Lights no longer looks like it's doing nothing. At rest it was a nearly still green strip; now its green curtains roll into teal and violet, with about ten times the movement, on a darker base so the light stands out. Glacier Drift, Red Arc, Flurry, Thanksgiving, Pumpkin Spice, Sunset and Solar Wind got the same treatment. Red Arc, Thanksgiving and Sunset's Brightness slider also goes higher now. If you've changed any of these looks yourself, your changes are kept.
