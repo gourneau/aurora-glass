@@ -5,6 +5,9 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.164 — 2026-11-09
+
+- SidePulse switches itself on only when the SidePulse app's background service is already running, so only people whose SidePulse is set up and working get it automatically. If SidePulse is installed but its service isn't running, Settings › SidePulse says so and offers to open the SidePulse app.
 ## 0.1.163 — 2026-11-09
 
 - Wash messages now dissolve into the aurora the way ink does in water: the currents bend, curl and smear the letters apart over about four seconds before they thin away. Before, they blurred and were gone in about a second and a half.
