@@ -5,6 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.168 — 2026-11-10
+
+- **Cursor** shows on the bar: the Cursor app and `cursor-agent` in a terminal. Working, done, failed, and its own question to you light the bar, each agent gets a row in the panel, and clicking a row brings Cursor (or the terminal) forward. Connect it in Settings › Agents, or with `aurora hooks --install --cursor`. If you've connected Claude Code, Cursor was already running those hooks, but its sessions sat in the panel as idle Claude Code rows that never lit up. Now they're Cursor's and they work. One limit: Cursor tells hooks nothing about its approval prompts, so those can't show as "needs you".
+- **Grok**'s command line shows on the bar as Grok, not as Claude Code. A Grok session no longer plays "done" a second time when it exits, or comes back as finished after you close it, and a turn you stop with Ctrl+C reads as stopped, not done. Connect it in Settings › Agents, or with `aurora hooks --install --grok`. That writes a hooks file of its own and touches nothing of yours.
+
 ## 0.1.167 — 2026-11-10
 
 - The menu bar panel shows every agent that fits on your screen, with no "and 1 more" link to click. It's in three parts: **Needs you**, **Working**, and **Finished**. Cards are two lines (the name, then the one thing worth knowing: the question, the error, the step it's on). When there are many, rows shrink to one line each before anything is left out. Finished work is one strip of dots and names that unfolds; it opens by itself only when nothing else is going on.
