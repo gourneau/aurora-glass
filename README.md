@@ -1,7 +1,8 @@
 # Aurora Glass
 
-A macOS menu bar app that paints a live GPU fluid simulation across your menu
-bar.
+A status light for your AI agents, in your Mac's menu bar. It shows when Claude
+Code or Codex is working, turns amber when one needs you, and ripples when it's
+done. The rest of the time, it's a live aurora painted across the bar.
 
 ### [aurora.radiantmachines.com](https://aurora.radiantmachines.com)
 
