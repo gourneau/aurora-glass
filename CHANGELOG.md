@@ -5,6 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.163 — 2026-11-09
+
+- Wash messages now dissolve into the aurora the way ink does in water: the currents bend, curl and smear the letters apart over about four seconds before they thin away. Before, they blurred and were gone in about a second and a half.
+- On the States page, the "Stays" menus for done and failed are narrower, so they no longer run into the color wells beside them.
+- If you have the SidePulse app installed, Aurora Glass now switches its SidePulse support on by itself, once. If you switch it off, it stays off.
 ## 0.1.162 — 2026-11-09
 
 - Settings shows every page again. The shorter sidebar from 0.1.161, with its Show All Settings button, is gone; instead the fine controls (Look Editor, Messages and Performance) sit together in an Advanced group at the end.
