@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.169 — 2026-11-10
+
+- A Grok session that opens and closes without being asked anything no longer shows up as finished work.
+
 ## 0.1.168 — 2026-11-10
 
 - **Cursor** shows on the bar: the Cursor app and `cursor-agent` in a terminal. Working, done, failed, and its own question to you light the bar, each agent gets a row in the panel, and clicking a row brings Cursor (or the terminal) forward. Connect it in Settings › Agents, or with `aurora hooks --install --cursor`. If you've connected Claude Code, Cursor was already running those hooks, but its sessions sat in the panel as idle Claude Code rows that never lit up. Now they're Cursor's and they work. One limit: Cursor tells hooks nothing about its approval prompts, so those can't show as "needs you".
