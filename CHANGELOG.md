@@ -5,6 +5,9 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.160 — 2026-11-09
+
+- The menu bar panel now says what the bar is showing in plain words, and what its motion is, for example "The bar: an agent needs you · breathing" or "The bar: all quiet · just your look". You no longer have to learn the motions to read it.
 ## 0.1.159 — 2026-11-09
 
 - On a wide display the aurora now looks like a laptop's, only longer: its curtains and swirls are the size they are on a laptop, repeated along the bar, and they move as much. Before, each shape was stretched across the whole width and the bar read as one still color, which on an ultrawide looked broken. Laptop screens draw exactly as they did.
