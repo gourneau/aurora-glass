@@ -313,20 +313,20 @@ when you press Apply.
 | Northern Lights | Green curtains rolling into violet. | Brightness, Glow |
 | Glacier Drift | Slow, wide, pale blue. | Brightness, Glow |
 | Deep Nebula | Rich swirling color, slow bloom. | Brightness, Glow |
-| Whisper | Barely there. For when you want it subtle. | Brightness, Glow |
+| Whisper | Barely there. For when you want it subtle. | Brightness |
 | Flurry | The old OS X screensaver: bright hue-cycling streamers. | Brightness, Glow |
 | Lavender Ribbon | A narrow ribbon of lavender light, with a green fringe below. | Brightness, Glow |
 | Red Arc | A deep red arc, shifting slowly. | Brightness, Glow |
 | Solar Wind | Swirling strands of cyan and white. | Brightness, Glow |
-| Lava Lamp | Fat warm blobs, rising and folding. | Brightness, Glow |
+| Lava Lamp | Fat warm blobs, rising and folding. | Brightness |
 | Plasma | Swirling patches of color, no rays at all. | Brightness, Glow |
 | Sunset | Warm coral, with gold and dusk violet drifting through. | Brightness, Glow |
-| Halloween | Pumpkin orange, guttering like a candle. | Brightness, Glow |
+| Halloween | Pumpkin orange, guttering like a candle. | Brightness |
 | Christmas | A fir-green bar, with holly red and tinsel in the bright parts. | Brightness, Glow |
 | Thanksgiving | Deep russet and cranberry, drifting slowly. | Brightness, Glow |
 | Fairy Dust | Rose and lilac, with gold motes that twinkle, and now and then a fairy flying by. | Brightness, Glow, Fairy dust, How many motes, Twinkle speed, Fairy flights a minute, Fairy trail |
 | Pumpkin Spice | Pumpkin, caramel and cinnamon under whipped cream — slow, warm and cozy. | Brightness, Glow, Glints |
-| Starlight | Nebula colors, a field of stars, and the odd shooting star. | Brightness, Glow, Star brightness, How many stars, Star spacing, Twinkle, Shooting stars a minute, Shooting star tails, Motes in the nebula |
+| Starlight | Nebula colors, a field of stars, and the odd shooting star. | Brightness, Glow, Star brightness, How many stars, Star spacing, Twinkle, Shooting stars a minute, Shooting star tails |
 | Halo | Soft pools of blue, violet and amber drifting along the bar, with no fluid underneath: the lightest look on the GPU. | Brightness, Glow |
 | Campfire | Flames licking up from the bottom of the bar, with sparks rising: no fluid underneath, light on the GPU. | Brightness, Glow |
 | Fire Plasma | Plasma's swirling patches in ember, orange and gold. | Brightness, Glow |
