@@ -5,6 +5,9 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.161 — 2026-11-09
+
+- On a new install, Settings starts with just the pages most people need: Looks & Colors, Display, Agents, General and About. Show All Settings, at the bottom of the sidebar, brings back every page. If you've used the app before, nothing changes.
 ## 0.1.160 — 2026-11-09
 
 - The menu bar panel now says what the bar is showing in plain words, and what its motion is, for example "The bar: an agent needs you · breathing" or "The bar: all quiet · just your look". You no longer have to learn the motions to read it.
