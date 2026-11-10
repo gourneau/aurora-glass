@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.162 — 2026-11-09
+
+- Settings shows every page again. The shorter sidebar from 0.1.161, with its Show All Settings button, is gone; instead the fine controls (Look Editor, Messages and Performance) sit together in an Advanced group at the end.
+
 ## 0.1.161 — 2026-11-09
 
 - On a new install, Settings starts with just the pages most people need: Looks & Colors, Display, Agents, General and About. Show All Settings, at the bottom of the sidebar, brings back every page. If you've used the app before, nothing changes.
