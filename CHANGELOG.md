@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.167 — 2026-11-10
+
+- The menu bar panel shows every agent that fits on your screen, with no "and 1 more" link to click. It's in three parts: **Needs you**, **Working**, and **Finished**. Cards are two lines (the name, then the one thing worth knowing: the question, the error, the step it's on). When there are many, rows shrink to one line each before anything is left out. Finished work is one strip of dots and names that unfolds; it opens by itself only when nothing else is going on.
+- "Acknowledge" is gone from the panel, replaced by buttons that say what they do. **Answer** takes you to the agent that's asking (Return does it for the top one), the bell **mutes** a question so the bar stops asking about it, **Dismiss** clears a failure from the bar, and **Clear Bar** does it for all of them. Finished work needs nothing: it's seen once you've had the panel open.
+- No more rows called "josh" that say "Finished": a session that started and stopped without ever being asked anything (the Grok command line does this) isn't listed, and a session with no name of its own goes by what it was asked, never by your home folder's name. Finished work stays half an hour after you've seen it, and eight hours if you haven't.
+
 ## 0.1.166 — 2026-11-10
 
 - Agents in the panel now go by their session's own name, like "Custom Cordless Red LED Lamp PRD", instead of the folder, with the project, branch and pull request underneath. A finished turn says how it ended in Claude's own words ("gate at 56/64; placement worker fixing 8 fails"), a waiting agent shows the question it's asking or what it wants permission to run, and the details add the model, effort, how much context it's carrying and the turn's full recap.
