@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.170 — 2026-11-10
+
+- A turn in Cursor's command line (`cursor-agent`) now shows as working from the moment you send it and ends as done, even when it uses no tools.
+
 ## 0.1.169 — 2026-11-10
 
 - A Grok session that opens and closes without being asked anything no longer shows up as finished work.
