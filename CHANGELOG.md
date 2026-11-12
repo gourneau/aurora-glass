@@ -1,9 +1,20 @@
 # Changelog
 
 What changed in each release of Aurora Glass, newest first. Downloads are at
-[aurora.radiantmachines.com](https://aurora.radiantmachines.com).
+[auroraglass.app](https://auroraglass.app).
 
 ## Unreleased
+
+## 0.1.171 — 2026-11-11
+
+- **The site is now [auroraglass.app](https://auroraglass.app).** Downloads, docs, the look editor and the report page are all there, and the app's links, its update check and the Homebrew cask point at it. The old address keeps working, so older copies still update.
+- **Every look starts very calm.** Pace now begins at Very calm, and goes much slower than it could: down to a twentieth of Normal. Its slider gives the slow end half its travel, so calm paces are easy to tell apart. A look you have changed keeps your pace.
+- **A slower bar is the same picture, played slower.** Slowing Pace used to dim the bar and roll the edges between colors into tight little curls, and so did a 120 Hz display. Both are fixed: the broad strokes stay at every pace and on every display.
+- **Play is much gentler.** Moving the pointer through the bar on its way to a menu barely stirs it now; a quick flick still leaves a trail. About a fifth of what it was.
+- **Ways into the panel when your menu bar is too full to show the icon** (Settings › General, each off until you choose it): show Aurora Glass in the Dock, where a click opens the panel at the top of the screen; open it with ⌃⌥⌘G from any app; or hold Option and right-click anywhere along the menu bar (experimental).
+- The panel no longer has its own options tucked behind a slider button. They are all in Settings, where they always were.
+- Setup: every look's picture can be clicked, not just its name. A new install starts on Northern Lights.
+- The away screen (Settings › Attention) now starts as Over your screen, so your work shows through it, and setup's switch turns on that one.
 
 ## 0.1.170 — 2026-11-10
 
@@ -104,7 +115,7 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 ## 0.1.148 — 2026-11-07
 
 - The welcome steps now teach the app as well as set it up: where the looks and colors are, with some to try on the spot; what each agent state looks like; a choice about the away screen; and opening at login. A new step explains fleets before you can join one, including that joining sends data to a server, and that you can use ours or host your own. Nothing is sent and the away screen stays off unless you choose. See them in Settings › About › Show Welcome Again.
-- New videos at [aurora.radiantmachines.com/video](https://aurora.radiantmachines.com/video): ten short films with sound, in a player you can flip through with the arrow keys, without scrolling.
+- New videos at [auroraglass.app/video](https://auroraglass.app/video): ten short films with sound, in a player you can flip through with the arrow keys, without scrolling.
 
 ## 0.1.147 — 2026-11-07
 
@@ -473,7 +484,7 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 - **The `aurora` command runs on Linux**, so a Linux machine's Claude Code
   sessions can show in your fleet too. One line installs it, for x86_64 and
   arm64, with nothing else needed and no root:
-  `curl -fsSL https://aurora.radiantmachines.com/install.sh | sh`, then
+  `curl -fsSL https://auroraglass.app/install.sh | sh`, then
   `aurora hooks --install` and `aurora login`. The download is checked
   against its published SHA-256 before anything is installed.
 - **Settings has a Fleet section** that says exactly what this Mac sends to
@@ -1115,7 +1126,7 @@ what Aurora Glass is best at: showing you what your agents are doing.
   file up first, and does nothing the second time. A file that is not valid
   JSON is left alone. `aurora hooks --uninstall` takes out only what it added.
   The help no longer suggests appending to the file with `>>`, which broke it.
-- **Edit looks in the browser.** [aurora.radiantmachines.com/editor.html](https://aurora.radiantmachines.com/editor.html)
+- **Edit looks in the browser.** [auroraglass.app/editor.html](https://auroraglass.app/editor.html)
   runs the app's own renderer in a WebGPU browser, with every built-in look,
   their options as sliders and the `.aurora` text beside them. Paste a look in
   or copy one out.
@@ -1129,7 +1140,7 @@ what Aurora Glass is best at: showing you what your agents are doing.
   below the bar fades away wisp by wisp as you scroll down, instead of being
   cut off.
 - **A new website.** The menu bar at the top of
-  [aurora.radiantmachines.com](https://aurora.radiantmachines.com) is the app
+  [auroraglass.app](https://auroraglass.app) is the app
   itself, running in your browser, and a gallery of every look switches it.
   Help has its own page, the docs cover the `aurora` command, and every page
   shares one header.
@@ -1151,7 +1162,7 @@ what Aurora Glass is best at: showing you what your agents are doing.
   file to edit and apply, and copies, pastes, saves and opens them, so a look
   can be sent to someone. The language, including how a look declares its
   own options, is documented at
-  [aurora.radiantmachines.com/docs.html](https://aurora.radiantmachines.com/docs.html).
+  [auroraglass.app/docs.html](https://auroraglass.app/docs.html).
 - **The aurora swell.** `aurora say --swell`, or *Aurora swell* in System →
   Messages: a bold piece of aurora bulges down out of the bar in the look's
   own colors with the line in it, then sinks back in.
@@ -1300,7 +1311,7 @@ what Aurora Glass is best at: showing you what your agents are doing.
   and one button sends it to the developer — no Terminal, no account. Sent
   only when you press it; nothing personal in it.
 - A page to paste a report by hand, at
-  [aurora.radiantmachines.com/report.html](https://aurora.radiantmachines.com/report.html).
+  [auroraglass.app/report.html](https://auroraglass.app/report.html).
 
 ## 0.1.33 — 2026-10-27
 
