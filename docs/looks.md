@@ -6,12 +6,12 @@ built-in presets are written in the same language, so Starlight and Fairy Dust
 are good examples to copy from.
 
 This page is the whole reference. It is also on the website at
-[aurora.radiantmachines.com/docs.html](https://aurora.radiantmachines.com/docs.html).
+[auroraglass.app/docs.html](https://auroraglass.app/docs.html).
 The tables at the end are generated from the app itself by `./docs.sh`, so
 they list exactly what the app accepts.
 
 <!-- generated:version -->
-**This is format 1 of the look language, last changed in Aurora Glass 0.1.145.** Every value in the reference says which release it arrived in, and [Language versions](#language-versions) lists what each release changed.
+**This is format 1 of the look language, last changed in Aurora Glass 0.1.171.** Every value in the reference says which release it arrived in, and [Language versions](#language-versions) lists what each release changed.
 <!-- end generated:version -->
 
 ## Using one
@@ -35,7 +35,7 @@ file to install it, and `auroraglass://` links. They are the next steps in
 [the plan](mods.md).
 
 You can also write one in the browser:
-[the look editor](https://aurora.radiantmachines.com/editor.html) runs the
+[the look editor](https://auroraglass.app/editor.html) runs the
 app's own renderer on the page, so the bar you see there is the bar you will
 get. When it looks right, press **Copy** and paste it into the app.
 
@@ -247,7 +247,7 @@ when you press Apply.
 
 | Name | What it does | Range | Since |
 |---|---|---|---|
-| `tempo` | the one pace control, over everything that moves | 0.15 – 2.5 | 0.1.45 |
+| `tempo` | the one pace control, over everything that moves | 0.05 – 2.5 | 0.1.45 |
 | `speed` | how fast the fluid runs | 0.02 – 4 | 0.1.45 |
 | `wind` | sideways drift of the fluid; negative blows the other way | -6 – 6 | 0.1.45 |
 | `shear` | how differently the top and bottom of the bar drift | 0 – 8 | 0.1.45 |
@@ -352,6 +352,7 @@ reference keeps track of both.
   later sees the fairies.
 
 <!-- generated:history -->
+- **0.1.171** — `tempo` goes down to 0.05, a twentieth of Normal; it stopped at 0.15.
 - **0.1.145** — An `option exposure` slider moves `background` too, up to half or double the look's own. A file reads as it always did: `set exposure` alone still moves only `exposure`. New values: `background`.
 - **0.1.136** — `engine 2`: fire, flames licking up from the bar's bottom edge.
 - **0.1.118** — New values: `engine`.
