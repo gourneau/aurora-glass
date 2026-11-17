@@ -5,6 +5,11 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.176 — 2026-11-17
+
+- The fleet has moved to fleet.auroraglass.app. A Mac or Linux machine already in a fleet moves over by itself once it has this update, and keeps everything it was sending; the old address no longer answers.
+
+- The website now logs each download like an ordinary server log, IP address included, and the help page says so.
 ## 0.1.175 — 2026-11-16
 
 - **What's new is in the app:** Settings › About lists every release's changes, newest first, with the version you're running marked.
