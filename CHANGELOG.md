@@ -5,6 +5,24 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.173 — 2026-11-16
+
+- The site now counts downloads (the file and the day, with the country from Cloudflare; no IP address is kept).
+- **Streamers are off unless you choose them.** When an agent needed you or failed, light used to drop below the bar, behind your windows, where someone working full screen never saw it. Settings › Attention now starts on No streamers (anyone on the old default is moved there once). Turn them on and they come forward over your windows while they drop.
+- **Wash the screen** (Settings › Attention, off by default): while an agent needs you or has failed, every screen breathes a soft tint of that state's color, over full-screen apps too. Clicks go through it, and it ends when you answer or clear the bar.
+- **Report a problem or send feedback** (Settings › About): choose a problem, feedback or an idea, add an email if you'd like a reply, and it reaches info@auroraglass.app. Feedback no longer needs the diagnostic report.
+- **An anonymous usage count.** The setup now asks, with yes ticked, whether this Mac may be counted: once a day it sends a random number made on the Mac, the app's version and macOS's, so we know how many people use Aurora Glass. Nothing else. Settings › General turns it off. Copies set up before this are not counted unless you turn it on.
+- **Follow the sky** (Looks & Colors › Reacts to, off by default): your look's colors follow the sun where you are, clear blue by day, gold near sunrise and sunset, violet at twilight, and your look's own at night. It is worked out from your Mac's time zone and clock, so it needs no location permission.
+## 0.1.172 — 2026-11-16
+
+- **The bar no longer freezes while a menu is open.** The part of the app that reads agent states and moves the colors paused whenever the app was tracking a menu or a click, so the bar could hold old colors and keep saying "needs you" after the question was answered.
+- **"Needs you" on the menu bar icon is now Arcs in turn**: the top and bottom arcs light one after the other. Breathing read as idle at a glance. Anyone still on Breathing is moved to it once; the icon options sit higher on Settings › States.
+- **The panel's title opens the looks**: the mark, "Aurora Glass" and the name of the look you are wearing are one button now, not just the small mark.
+- Contact address is now info@auroraglass.app, in the app and on the site.
+- **Pace starts at 0.7 and reads as a number.** Very calm turned out too slow to start on. The slider now shows the pace itself (0.7×, 1× is Normal), so every notch reads differently, and its travel is reshaped: the looks' own pace sits in the middle and the nearly still paces take the first tenth, not a quarter.
+- **Right-click the menu bar to open the panel** (Settings › General, off until you choose it). A plain right-click on an empty part of the bar now does it; a click on another app's menu or icon is left to that app. You can choose a double right-click or Option-right-click instead.
+- Settings › Display: "Solid background" was a switch whose caption explained on and off at once. It is now a choice, Behind the aurora: Solid or Your wallpaper, with one line for whichever you picked.
+
 ## 0.1.171 — 2026-11-11
 
 - **The site is now [auroraglass.app](https://auroraglass.app).** Downloads, docs, the look editor and the report page are all there, and the app's links, its update check and the Homebrew cask point at it. The old address keeps working, so older copies still update.
