@@ -5,6 +5,9 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.174 — 2026-11-16
+
+- The working icon's light now runs along the top arc left to right, then back along the bottom arc right to left, round and round.
 ## 0.1.173 — 2026-11-16
 
 - The site now counts downloads (the file and the day, with the country from Cloudflare; no IP address is kept).
