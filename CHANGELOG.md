@@ -5,6 +5,9 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.175 — 2026-11-16
+
+- **What's new is in the app:** Settings › About lists every release's changes, newest first, with the version you're running marked.
 ## 0.1.174 — 2026-11-16
 
 - The working icon's light now runs along the top arc left to right, then back along the bottom arc right to left, round and round.
