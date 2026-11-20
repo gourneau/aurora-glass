@@ -5,13 +5,16 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
-## 0.1.178 — 2026-11-19
+## 0.1.179 — 2026-11-19
 
 - **Choose how it looks and how it asks for you, right in the menu bar panel.** Click the panel's title: the looks are now one row you scroll sideways, and under them are two choices. When an agent needs you: Color only, Streamers once, or Streamers until I answer. Choosing one shows it on your menu bar straight away. And whether the bar reacts to your pointer: Off, Play or Glow. These are the same settings as in the Settings window, not copies.
 - **Streamers are back as the default for new installs.** When an agent needs you, amber streamers drop from the menu bar every 20 seconds until you answer. If you already have the app, nothing changes: switch them on or off in the panel or in Settings › Attention.
 - **Setup now asks the two things that matter: how it should look, and how it should ask for you.** The look step also asks whether the bar reacts to your pointer. A new step shows each alert style on your menu bar as you pick it, and the "show my agents on the whole screen when I step away" switch moved there too.
 - "No streamers" is now called "Color only".
 - Claude Code usage no longer says your plan has no limits when Claude Code on this Mac simply isn't signed in, which is how it is for anyone who uses Claude Code only inside the Claude app. It now says it isn't signed in, and how to fix that; and when it can't tell, it says it couldn't read the limits.
+
+## 0.1.178 — 2026-11-19
+
 - The aurora no longer gets stuck at half its frame rate, 30 instead of 60, after the Mac has been busy or the bar has paused, until the rate was chosen again. Easing off under load now waits at most a minute before trying full speed again, and frames are paced so a slightly late one can't halve the rate.
 
 ## 0.1.177 — 2026-11-19
