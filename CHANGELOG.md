@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.178 — 2026-11-19
+
+- The aurora no longer gets stuck at half its frame rate, 30 instead of 60, after the Mac has been busy or the bar has paused, until the rate was chosen again. Easing off under load now waits at most a minute before trying full speed again, and frames are paced so a slightly late one can't halve the rate.
+
 ## 0.1.177 — 2026-11-19
 
 - Tails hanging below the bar now keep the look's own colors. They used to wash out to a gray-white under a colored bar.
