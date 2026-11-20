@@ -5,6 +5,17 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.182 — 2026-11-20
+
+- **In the menu bar panel, "Agent needs you" is one row**, like the pointer choice under it: Color, Streamers or Repeating (streamers again every 20 seconds until you answer).
+- **The panel's looks open at once** when you click its title, with no fade and no slow growing.
+- **Setup lets you tick exactly which parts of anonymous usage to share**: what gets used, which settings are on, how setup went, how much your agents do, how well it runs. Share all of it, some of it or none.
+- **The question about sharing anonymous usage is no longer in the menu bar panel.** If you had Aurora Glass before 0.1.180 and haven't answered it, it opens once as its own window, the same step new installs see in setup. Nothing is turned on unless you press Turn On there.
+
+## 0.1.181 — 2026-11-20
+
+- **The `aurora` command can be installed by itself**: `brew install gourneau/tap/aurora`. If you downloaded Aurora Glass from the website or installed it with Homebrew you already have it, and nothing changes. It now says its version wherever it is installed.
+
 ## 0.1.180 — 2026-11-20
 
 - **A new Privacy page shows everything Aurora Glass sends, and lets you switch off any part of it.** Settings › Privacy lists every item in plain words, shows the exact message before it goes, and keeps a record of the last 100 things this Mac sent, each with its full text.
