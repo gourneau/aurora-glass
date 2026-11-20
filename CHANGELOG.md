@@ -5,6 +5,12 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.183 — 2026-11-20
+
+- **The panel now says when an agent has lost its connection.** If your internet drops, or the service is overloaded, a working agent's row reads "No connection to its API. Trying again, try 7 of 10." instead of going silent. (Claude Code only; it needs the copy of Aurora Glass from the website.)
+- **A long-running command no longer reads as "No activity".** While a tool an agent started is still running, such as a ten-minute build, its row stays in its working look and says what it is running.
+- **"No activity" is now "Quiet for 6m: thinking, or stuck"**, and it comes on after five minutes of silence, not three.
+
 ## 0.1.182 — 2026-11-20
 
 - **In the menu bar panel, "Agent needs you" is one row**, like the pointer choice under it: Color, Streamers or Repeating (streamers again every 20 seconds until you answer).
