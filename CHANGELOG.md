@@ -5,6 +5,10 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.177 — 2026-11-19
+
+- Tails hanging below the bar now keep the look's own colors. They used to wash out to a gray-white under a colored bar.
+
 ## 0.1.176 — 2026-11-17
 
 - The fleet has moved to fleet.auroraglass.app. A Mac or Linux machine already in a fleet moves over by itself once it has this update, and keeps everything it was sending; the old address no longer answers.
