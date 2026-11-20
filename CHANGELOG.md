@@ -5,6 +5,13 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 
 ## Unreleased
 
+## 0.1.180 — 2026-11-20
+
+- **A new Privacy page shows everything Aurora Glass sends, and lets you switch off any part of it.** Settings › Privacy lists every item in plain words, shows the exact message before it goes, and keeps a record of the last 100 things this Mac sent, each with its full text.
+- **Anonymous usage, if you say yes.** Aurora Glass is free, and until now I could only count how many copies were running. It can now share counts of what gets used: which setup steps and Settings pages are opened, which built-in look is on, how smoothly it draws, and how many turns your agents ran. Never your name, files, prompts, anything your agents say, or names you made up. **If you already have the app, this is off**: the menu bar panel asks once, and nothing more is sent unless you turn it on. New installs are asked in setup, with it on.
+- **It can check for updates once a day.** When a newer version is out, the menu bar panel says so with a Download button. The check asks the website for its list of versions and sends nothing about you. Off for anyone who already has the app until they turn it on, in the same panel note or in Settings › Privacy.
+- **Setup has a step for both**, with a switch for each and a link to exactly what is sent. Skip now stops there first, so nobody finishes setup without seeing it.
+
 ## 0.1.179 — 2026-11-19
 
 - **Choose how it looks and how it asks for you, right in the menu bar panel.** Click the panel's title: the looks are now one row you scroll sideways, and under them are two choices. When an agent needs you: Color only, Streamers once, or Streamers until I answer. Choosing one shows it on your menu bar straight away. And whether the bar reacts to your pointer: Off, Play or Glow. These are the same settings as in the Settings window, not copies.
@@ -16,6 +23,7 @@ What changed in each release of Aurora Glass, newest first. Downloads are at
 ## 0.1.178 — 2026-11-19
 
 - The aurora no longer gets stuck at half its frame rate, 30 instead of 60, after the Mac has been busy or the bar has paused, until the rate was chosen again. Easing off under load now waits at most a minute before trying full speed again, and frames are paced so a slightly late one can't halve the rate.
+- Two different builds went out as 0.1.178 a few minutes apart: this one, and one with the changes now listed under the next version as well. If you have 0.1.178, update to the next version to be sure you have both.
 
 ## 0.1.177 — 2026-11-19
 
